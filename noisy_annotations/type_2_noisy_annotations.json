@@ -1,0 +1,1657 @@
+{
+    "PMUL2437.json": {
+        "4": {
+            "target": [
+                "restaurant pricerange moderate",
+                "restaurant area centre"
+            ],
+            "modified_target": [
+                "restaurant area centre",
+                "restaurant pricerange moderate",
+                "attraction type multiple sports"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i want to find a moderate -ly priced restaurant . <|system|> i have many options available for you ! is there a certain area or cuisine that interests you ? <|user|> yes i would like the restaurant to be located in the center of the attractions . <|system|> there are 21 restaurant -s available in the centre of town . how about a specific type of cuisine ? <|user|> i need to know the food type and postcode and it should also have mutliple sports <|system|> i am sorry i do not understand what you just said . please repeat in a way that makes sense . <|user|> get me the food type and the post code <|endofcontext|> "
+        }
+    },
+    "MUL1060.json": {
+        "10": {
+            "target": [
+                "hotel name university arms hotel",
+                "hotel area centre",
+                "hotel parking yes",
+                "hotel book stay 3",
+                "hotel book day wednesday",
+                "hotel book people 8",
+                "attraction type college",
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "hotel name university arms hotel",
+                "hotel parking yes",
+                "attraction type college",
+                "hotel area centre",
+                "attraction area centre",
+                "hotel book people 8",
+                "hotel book day wednesday",
+                "hotel internet yes",
+                "hotel book stay 3"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hello , i would like to find a hotel that include -s free parking . <|system|> most of the hotel -s in town offer free parking . is there a certain area you would like to stay in , or do you have a price range in mind ? <|user|> yes . the centre would be nice and also free wifi . <|system|> the university arms is an expensive , 4 star hotel with free wifi . comparatively , the alexander bed and breakfast is a cheap -ly priced guesthouse , also 4 stars . <|user|> please book me some rooms for the university arms to accommodate 8 people for 3 nights starting on wednesday . can you also provide me the reference number after you book ? <|system|> your reference number is x5ny66zv . <|user|> thank you . can you please help me find a place to go in town in the same area as the hotel ? preferably a college . <|system|> there are no colleges close to the area you are requesting , would you like to chose another destination ? <|user|> i believe there are some colleges in the centre of town . can you please check again ? <|system|> i am sorry but i rechecked and there are no colleges in that area . is there anything else that i can do for you ? <|user|> hmmm , i was looking for the phone number and postcode of a college in the centre area . could you help me with that ? <|system|> i have 5 colleges in the centre area . what specific college are you looking for ? <|user|> i am looking for cambridge . <|system|> i am sorry , there are no listings for cambridge college in the centre area . is there another college you would like me to look for ? <|user|> oh , it could be anyone then . just a college . <|system|> how about corpus christi college , they have a free entrance fee . <|user|> could you give me their phone number , postcode , and entrance fee ? <|system|> the phone number is 01223334900 , the postcode is cb23bu , and the entrance fee , as mentioned earlier , is free . can i help with anything else ? <|user|> thank you very much . that s all i need today , bye . <|endofcontext|> "
+        }
+    },
+    "MUL1642.json": {
+        "5": {
+            "target": [
+                "restaurant pricerange expensive",
+                "restaurant area centre",
+                "train leaveat 18:45",
+                "train destination london kings cross",
+                "train day saturday",
+                "train departure cambridge",
+                "train book people 8"
+            ],
+            "modified_target": [
+                "restaurant pricerange expensive",
+                "train departure cambridge",
+                "train destination london kings cross",
+                "restaurant book people 8",
+                "restaurant area centre",
+                "train book people 8",
+                "train leaveat 18:45",
+                "train day saturday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hello , i am trying to find a train that goes from cambridge to london kings cross . can you help me book a ticket ? <|system|> i can help with that . can you tell me what day you will be traveling ? <|user|> i need to leave on saturday after 18:45 . <|system|> the soonest departure time would be at 19:00 on saturday , is that okay ? <|user|> yes , that s perfect . can you book that for 8 people ? <|system|> you are all booked with reference number 144vdbrm . the cost of 151.04 gbp will be payable at the station . can i be of further assistance today ? <|user|> i am looking for an expensive place to eat in the centre , what is there that fits that criteria ? <|system|> there 33 place -s that fit your criteria . do you have a particular cuisine type in mind so that i can narrow the results down ? <|user|> it does not matter what kind of food . what would you recommend for a large group of 8 people ? <|endofcontext|> "
+        }
+    },
+    "MUL0088.json": {
+        "6": {
+            "target": [
+                "restaurant name cow pizza kitchen and bar",
+                "hotel parking yes",
+                "hotel pricerange moderate",
+                "hotel stars 3"
+            ],
+            "modified_target": [
+                "hotel stars 3",
+                "hotel parking yes",
+                "restaurant name cow pizza kitchen and bar",
+                "hotel pricerange moderate",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a cheap hotel with free parking near cambridge . <|system|> i have multiple cheap hotel -s with free parking . what part of town are you interested in staying in ? <|user|> i would like to stay close to the center area , but the hotel should be 3 star . <|system|> we do not have any hotel -s that match your search . do you want to try something else ? <|user|> are there any moderate 3 star hotel -s with free parking ? <|system|> we do not have any hotel -s that match your search . do you want to try something else ? <|user|> how about 1 in the moderate price range ? <|system|> we have 3 entries that match your preferences . would you prefer north , south , or west ? <|user|> i do not have a preference but i would also like ot find a restaurant called the cow pizza kitchen and bar . <|system|> before i book your restaurant would you like to book your lodging ? i think you will like hamilton lodge . it meets your needs . <|user|> does it have internet ? <|endofcontext|> "
+        }
+    },
+    "MUL1926.json": {
+        "1": {
+            "target": [
+                "train destination cambridge",
+                "train departure norwich"
+            ],
+            "modified_target": [
+                "train day tuesday",
+                "train departure norwich",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> yes hello ! i am looking for a train leaving on tuesday from norwich to cambridge . <|endofcontext|> "
+        }
+    },
+    "PMUL4626.json": {
+        "5": {
+            "target": [
+                "restaurant name curry prince",
+                "train leaveat 19:00",
+                "train destination london kings cross",
+                "train day tuesday",
+                "train departure cambridge",
+                "train book people 6"
+            ],
+            "modified_target": [
+                "restaurant name curry prince",
+                "train day tuesday",
+                "train destination london kings cross",
+                "train departure cambridge",
+                "train leaveat 19:00",
+                "restaurant book day tuesday",
+                "train book people 6",
+                "restaurant book time 14:00",
+                "restaurant book people 6"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need to take a train out of cambridge after 19:00 please . <|system|> how about the tr1006 , it leaves at 19:00 . <|user|> i need to travel on tuesday to london kings cross . <|system|> tr4125 leaves cambridge for london kings cross on tuesday at 19:00 . would you like me to book it for you ? <|user|> yes please for 6 people . <|system|> the booking was successful . your reference number is eznvjapg . the cost is 141.6 pounds . do you need anything else ? <|user|> yes , i am looking for a restaurant . i believe it s called curry prince . <|system|> i have found the restaurant , would you like for me to book a table for you ? <|user|> yes , i would like it the same day at 14:00 . i would also like the reference number from the train and restaurant please . <|endofcontext|> "
+        }
+    },
+    "PMUL0286.json": {
+        "2": {
+            "target": [
+                "hotel stars 3",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "hotel type hotel",
+                "hotel stars 3",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am traveling to cambridge and am interested in trying local restaurant -s and finding a hotel for my stay . <|system|> there are many restaurant -s . can you please elaborate on what you would like ? <|user|> i need to find a hotel with a 3 star rating that include -s free wifi . <|endofcontext|> "
+        }
+    },
+    "SNG0898.json": {
+        "5": {
+            "target": [
+                "hotel pricerange moderate",
+                "hotel stars 3",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "hotel stars 3",
+                "hotel book day thursday",
+                "hotel pricerange moderate",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i am looking for a cheap place to stay that has free wifi . can you find anything like that ? <|system|> i have 10 entries that meet your requirement -s ! what area of town would you like ? <|user|> i do not care about the area but i need 1 with 3 stars , please . <|system|> unfortunately , i do not show any cheap hotel -s that have a 3 star rating . can i look in a different price range or star rating for you ? <|user|> can you see if there are any in the moderate range ? <|system|> we have 3 moderate -ly priced 3 star guesthouses . <|user|> great ! which of those 3 would you recommend ? <|system|> which are would you like to stay in ? <|user|> please just pick the best 1 and book it for thursday . <|endofcontext|> "
+        }
+    },
+    "PMUL2215.json": {
+        "6": {
+            "target": [
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "attraction type college",
+                "attraction area centre"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i am looking forward to eat at your local restaurant -s on my upcoming trip . i have those planned , but could use some help with place -s to go in town . <|system|> do you have any food type , price range , and location preferences ? <|user|> you know what , i change my mind . let s look for an attraction for entertainment in the centre of town . <|system|> there are lots of attractions is there anything specific you are looking for ? <|user|> i am looking for a entertainment please . <|system|> there s nothing matching that criteria . do you want to search in a different area ? <|user|> no . i am thinking it may be nice to visit a college . can you please recommend 1 of those ? <|system|> there are 5 . i recommend downing college . <|user|> how far away is it from the all saints church ? <|system|> all saints is in the center of town at jesus lane . <|user|> i would like the address , postcode and entrance fee . <|endofcontext|> "
+        }
+    },
+    "PMUL2703.json": {
+        "6": {
+            "target": [
+                "hotel name express by holiday inn cambridge",
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "attraction type college",
+                "hotel name express by holiday inn cambridge",
+                "attraction area centre"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for colleges in the centre . <|system|> great ! there are thirteen to choose from in that area ! <|user|> could you suggest 1 and give me the address and postcode , please ? <|system|> christ s college . saint andrew s street , cb23bu . is there anything else you need ? <|user|> is there an entrance fee ? <|system|> no entrance is free . <|user|> looking for a particular hotel . its name is called express by holiday inn cambridge . <|system|> i have it , it s at 1517 norman way , coldhams business park . would you like to book a room ? <|user|> i am not ready to book quite yet . can you let me know if it is a hotel or guest house . also , how many stars it is ? <|system|> 2 stars . hotel . <|user|> thank you . what are some of the attractions in the centre area ? <|endofcontext|> "
+        }
+    },
+    "SNG0892.json": {
+        "2": {
+            "target": [
+                "hotel stars 3"
+            ],
+            "modified_target": [
+                "hotel stars 3",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a hotel with at least a 3 star rating . <|system|> we have 6 hotel -s and guesthouses that have 3 star rating -s . is there a particular part of town , or a particular price range that you are interested in ? <|user|> i am not to worried about price but the hotel needs to have free wifi . <|endofcontext|> "
+        }
+    },
+    "PMUL0457.json": {
+        "7": {
+            "target": [
+                "restaurant food spanish",
+                "restaurant pricerange cheap",
+                "restaurant name la raza",
+                "restaurant area centre",
+                "restaurant book people 3",
+                "restaurant book day tuesday",
+                "restaurant book time 17:45"
+            ],
+            "modified_target": [
+                "hotel name a and b guest house",
+                "hotel parking yes",
+                "restaurant book people 3",
+                "restaurant pricerange cheap",
+                "restaurant area centre",
+                "restaurant book day tuesday",
+                "restaurant name la raza",
+                "restaurant book time 17:45",
+                "restaurant food spanish"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need more on a hotel called a and b guest house . <|system|> yes , they are a 4 star rated hotel in the east aide , pricing is moderate . <|user|> do they have free parking ? <|system|> no parking but you can park your vehicle nearby <|user|> i would also like to find a restaurant . <|system|> would you like the restaurant in the east as well ? were you looking for any price range of style of cuisine ? <|user|> i would like a restaurant in the centre , preferably a steakhouse in the cheap price range . <|system|> we do not have a match for you . in general , you will be hard pressed to find a cheap steakhouse any where . <|user|> how about 1 that serves spanish food ? <|system|> la raza is a cheap spanish restaurant in the center of town . do you want me to book it for you ? <|user|> sure ! i need a table for 3 at 17:45 on tuesday . <|system|> great ! your reference number is 95rpvn70 . anything else i can do for you ? <|user|> no , thank you . i am all set with your help . goodbye . <|endofcontext|> "
+        }
+    },
+    "SNG01957.json": {
+        "7": {
+            "target": [
+                "hotel area north",
+                "hotel pricerange cheap",
+                "hotel internet yes",
+                "hotel type guesthouse",
+                "hotel book stay 1",
+                "hotel book day sunday",
+                "hotel book people 1"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel type guesthouse",
+                "hotel book people 1",
+                "hotel book stay 1",
+                "hotel area north",
+                "hotel name worth house",
+                "hotel book day sunday",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a place to stay . the hotel should be in the cheap price range and should be in the north <|system|> okay . there is a 0 star place , and a 4 star place . which do you prefer ? <|user|> i do not care as long as it s cheap . <|system|> i think the worth house is your best bet ! <|user|> alright . book that 1 for me <|system|> are you booking for 1 person ? when is your arrival and how long is your stay , please . <|user|> yes , only 1 person . i will be arriving on sunday , for 1 night . <|system|> i am sorry i do not have anything for sunday night . would you like to try a different hotel ? <|user|> i do not need a booking after all , sorry . are there any cheap guesthouses in the north with free wifi ? <|system|> yes , there i the worth house and also city centre north bed and breakfast . would you like me to book you a room at either 1 ? <|user|> please book a guesthouse . can i also get the star rating and the postcode ? <|system|> i have booked you at worth house . it is a 4 star accommodation , and the postcode is cb41da . do you have any further questions ? <|user|> no , that will be all . thank you for your assistance . <|endofcontext|> "
+        }
+    },
+    "PMUL2942.json": {
+        "10": {
+            "target": [
+                "hotel name el shaddia guesthouse",
+                "hotel area centre",
+                "hotel stars 0",
+                "hotel type guesthouse",
+                "attraction type park",
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "attraction name cambridge university botanic gardens",
+                "hotel name el shaddia guesthouse",
+                "hotel stars 0",
+                "hotel type guesthouse",
+                "hotel area centre",
+                "attraction area centre",
+                "attraction type park"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for place -s to go in the centre of town . <|system|> i have 44 matches for central area , i can narrow it down by type or entrance price -s . <|user|> how about a park ? <|system|> that should be cambridge university botanic gardens located in bateman street . can i give you the phone number ? <|user|> yes , ill need the number along with the address and postal code . <|system|> the phone number is 01223336265 . <|user|> i also need the address please . <|system|> the address is bateman street in the centre area of town . <|user|> can i get the postcode too please ? <|system|> the postcode is cb21jf . do you need anything else ? <|user|> i am also looking for a place to stay in the same area as cambridge university botanic gardens <|system|> would you prefer a guesthouse or a hotel ? <|user|> a guesthouse please and with a star rating of zero . <|system|> the only place available is the el shaddai . would you like for me to book a room ? <|user|> actually could you get me the postcode , their price range , and whether they have free parking ? <|system|> the postcode is cb11eg they offer free parking and is cheap -ly priced . <|user|> thank you very much . that should be it . <|system|> i can also recommend restaurant -s and arrange transportation . do you need help with these ? <|user|> no , thanks . i have everything i need . <|endofcontext|> "
+        }
+    },
+    "MUL0912.json": {
+        "3": {
+            "target": [
+                "attraction type entertainment",
+                "attraction area south"
+            ],
+            "modified_target": [
+                "attraction area south",
+                "restaurant area south",
+                "attraction type entertainment"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking forward to trying local restaurant -s but would like help finding a place to go in town . i would like it to be in the south and a swimmingpool <|system|> i am sorry , i am experiencing a system error . could you please restate your request ? <|user|> i want a place to go in the south , a swimmingpool . or another type of entertainment , if there is no pool ? <|system|> i am sorry , but there are not any swimming pools in the south area . there are 2 parks and a cinema . are you interested in 1 of these ? or something else ? <|user|> yes , are there any entertainment attractions then ? <|endofcontext|> "
+        }
+    },
+    "PMUL4059.json": {
+        "3": {
+            "target": [
+                "hotel parking yes",
+                "hotel pricerange cheap",
+                "hotel internet yes",
+                "hotel type guesthouse"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "hotel name autumn house",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a place to stay . the hotel should include free wifi and should include free parking . <|system|> sure , would you like a guesthouse or hotel ? <|user|> a guesthouse , please . are there any in the cheap price range ? <|system|> oh , yes , there are 9 . i do recommend the autumn house . <|user|> great , could you give me their phone number and address please ? <|endofcontext|> "
+        }
+    },
+    "PMUL0182.json": {
+        "9": {
+            "target": [
+                "restaurant food european",
+                "restaurant name cambridge lodge restaurant",
+                "restaurant area west",
+                "restaurant book people 8",
+                "restaurant book day sunday",
+                "restaurant book time 17:30",
+                "hotel name huntingdon marriott hotel",
+                "hotel pricerange expensive",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "restaurant book people 8",
+                "restaurant book day sunday",
+                "restaurant area west",
+                "hotel name huntingdon marriott hotel",
+                "restaurant food european",
+                "taxi destination cambridge lodge restaurant",
+                "taxi departure huntingdon marriott hotel",
+                "restaurant name cambridge lodge restaurant",
+                "hotel pricerange expensive",
+                "restaurant book time 17:30",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i want to find a european restaurant in the west . <|system|> there is 1 available , the cambridge lodge restaurant , would you like me to book you ? <|user|> no , i am just getting some information together . is it expensive ? <|system|> yes it is an expensive restaurant , do you want to try a different restaurant ? <|user|> let s go with cambridge lodge . i would like to book for 8 at 17:30 on saturday , please . <|system|> reference number is : ipxe2sid . is there anything else ? <|user|> actually , i want to change the reservation to sunday . <|system|> reference number is : isjvy1rc . is there anything else ? <|user|> i am also looking for a hotel , it can be expensive , but it needs to have free wifi . <|system|> there are 5 expensive hotel -s , all with wifi . could you tell me which location you are wanting to stay in , to narrow it down ? <|user|> the area does not matter , which 1 would you recommend ? <|system|> sure , i would recommend the huntingdon marriott hotel which is located near the restaurant . would you like a reservation ? <|user|> no thanks , just tell me the phone number and type for it please <|system|> it is a hotel and the phone number is 01480446000 . <|user|> how many stars does this hotel have ? <|system|> it is a 4 star hotel . <|user|> i need a taxi to go between the 2 place -s , i need a contact number and car type please . <|endofcontext|> "
+        }
+    },
+    "MUL2204.json": {
+        "7": {
+            "target": [
+                "hotel name cambridge belfry",
+                "hotel area west",
+                "hotel type hotel",
+                "hotel book stay 5",
+                "hotel book day wednesday",
+                "hotel book people 7",
+                "train destination bishops stortford",
+                "train day monday",
+                "train arriveby 10:15",
+                "train departure cambridge"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel book stay 5",
+                "hotel type hotel",
+                "hotel book people 7",
+                "train arriveby 10:15",
+                "train departure cambridge",
+                "train day monday",
+                "hotel name cambridge belfry",
+                "train destination bishops stortford",
+                "hotel book day wednesday",
+                "hotel area west"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a hotel in the west of cambridge . <|system|> i have huntingdon marriott and the cambridge belfry . both have 4 stars and offer free internet and parking . would like to book a room ? <|user|> that will not be necessary . are they cheap ? <|system|> the huntingdon marriott hotel is in the expensive price range . i have the cambridge belfry also in the west in the cheap price range . would you like to book ? <|user|> yes please , as long as internet and parking are free . there are 7 of us arriving on wednesday for 5 nights . <|system|> i have made the reservation . the reference number is 51b4z8i7 . is there anything else you need today ? <|user|> i am also looking for a train that departs from cambridge and arrives by 10:15 . <|system|> what will be your destination and what day will you like to travel ? <|user|> i will be travel on monday and my destination is bishops stortford . <|system|> i have 3 trains matching your request . the 3 trains leave on monday at 05:29 , 07:29 , and 09:29 . was there 1 that you preferred ? <|user|> what is the travel time of the 09:29 train ? <|system|> the duration of the 9:29 train is 38 minutes , arriving at 10:07 . <|user|> great ! thanks for the help . goodbye ! <|endofcontext|> "
+        }
+    },
+    "PMUL3558.json": {
+        "3": {
+            "target": [
+                "hotel stars 2"
+            ],
+            "modified_target": [
+                "hotel stars 2",
+                "hotel pricerange expensive"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am planning a trip in cambridge <|system|> i can help book a train to get you here . <|user|> ok i will book it for you <|system|> how can i help you today ? are you needing train information or is there something else i can do for you ? <|user|> i need an expensive place to stay that s 2 stars . <|endofcontext|> "
+        }
+    },
+    "MUL2053.json": {
+        "7": {
+            "target": [
+                "hotel name express by holiday inn cambridge",
+                "hotel area east",
+                "hotel stars 2",
+                "hotel internet yes",
+                "hotel book stay 4",
+                "hotel book day tuesday",
+                "hotel book people 3",
+                "train destination cambridge",
+                "train arriveby 11:45",
+                "train departure peterborough"
+            ],
+            "modified_target": [
+                "train departure peterborough",
+                "train day tuesday",
+                "train arriveby 11:45",
+                "hotel book day tuesday",
+                "hotel name express by holiday inn cambridge",
+                "hotel stars 2",
+                "hotel book people 3",
+                "hotel book stay 4",
+                "hotel internet yes",
+                "hotel area east",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi there . can you help me find a 2 star rated hotel or guesthouse ? <|system|> ashley hotel is a 2 star hotel in 74 chesterton road <|user|> does that include wifi ? <|system|> yes it include -s internet . would you like for me to book that for you ? <|user|> yes please , that would be great . <|system|> ok perfect . before i book , how many people will be staying at the hotel , what day you will be checking in , and how long you will be staying for please ? <|user|> thank you , i need to book for 3 people and 4 nights starting from tuesday . <|system|> i completed your booking . your reference number is 35w3xedl . is there anything else i could do to help ? <|user|> yes , i also need to verify that this hotel is in the east area of town . <|system|> ashley is on the north , there is an option in the east express holiday inn by cambridge , which 1 would you prefer ? <|user|> i actually really need a booking in the east . is it possible for you to book me at the express holiday inn by cambridge instead ? for tuesday , 3 people 4 nights . <|system|> yes , i was able to book you . your reference number is rmibuhde . is there anything else i can do for you ? <|user|> yes , i am looking for a train to cambridge from peterborough . i would like to arrive by 11:45 . <|endofcontext|> "
+        }
+    },
+    "PMUL2194.json": {
+        "7": {
+            "target": [
+                "restaurant pricerange moderate",
+                "restaurant name yippee noodle bar",
+                "restaurant area centre",
+                "restaurant book time 15:30",
+                "restaurant book day monday",
+                "restaurant book people 2",
+                "attraction name holy trinity church"
+            ],
+            "modified_target": [
+                "restaurant name yippee noodle bar",
+                "restaurant area centre",
+                "restaurant book people 2",
+                "attraction area centre",
+                "restaurant pricerange moderate",
+                "attraction name holy trinity church",
+                "restaurant book day monday",
+                "restaurant book time 15:30"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a place to eat . something moderate -ly priced , in the center . <|system|> yes , there are lots of options for you . what type of food are you looking for ? <|user|> i do not really have a type of cuisine in mind . maybe you could recommend someplace moderate -ly priced and in the centre of town ? <|system|> i can recommend the yippee noodle bar it is asian oriental . does that sound ok ? <|user|> sounds great , can you book it or 2 people at 15:30 om monday ? <|system|> booking was successful . the table will be reserved for 15 minutes . reference number is : ugf14fpi . is there anything else i can assist you with ? <|user|> i am looking for some place -s to go in the same area as the restaurant . <|system|> you are in luck . the center has colleges , architecture , boats , museums , concert hall , nightclubs , park , swimming pool , and theatres . which 1 appeals to you ? <|user|> please select your favorite and then give me the phone number and entrance fee information <|system|> i would suggest holy trinity church . <|user|> that sounds great , can i please have their phone number and information about their entrance fees ? <|system|> their phone number is 01223355397 and it is free to enter . <|user|> free is the best price , thank you , that is all i need <|endofcontext|> "
+        }
+    },
+    "PMUL4316.json": {
+        "2": {
+            "target": [],
+            "modified_target": [
+                "train destination peterborough"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for information in cambridge . <|system|> since you contacted the help desk for cambridge i assumed this , can you please give me a starting point to begin a search ? <|user|> actually , i'll be needing to find a way to get to petersborough . i was thinking a train might be cheap -er . <|endofcontext|> "
+        }
+    },
+    "MUL0369.json": {
+        "4": {
+            "target": [
+                "restaurant name kymmoy",
+                "restaurant book people 8",
+                "restaurant book day monday",
+                "restaurant book time 15:15",
+                "train destination cambridge",
+                "train day monday",
+                "train departure bishops stortford"
+            ],
+            "modified_target": [
+                "train arriveby 08:00",
+                "train departure bishops stortford",
+                "restaurant book time 15:15",
+                "restaurant book people 8",
+                "restaurant name kymmoy",
+                "restaurant book day monday",
+                "train day monday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> im looking for a the kymmoy restaurant in cambridge <|system|> yes , they are a bit expensive but are located in the city centre at 52 mill road . may i help you with reservation ? <|user|> yes i would like to book a table of 8 at 15:15 on monday <|system|> the book for successful , did you need the reservation number ? <|user|> yes please . i would also like a train that will depart from bishops stortford and go to cambridge . <|system|> your reservation number is al0qeu6x . what day would you like to make this trip ? <|user|> the train should arrive by 08:00 and should be on the same day as the restaurant booking . <|endofcontext|> "
+        }
+    },
+    "PMUL4713.json": {
+        "5": {
+            "target": [
+                "hotel stars 4",
+                "hotel internet yes",
+                "hotel type guesthouse",
+                "attraction type college",
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "attraction type college",
+                "attraction area centre",
+                "hotel stars 4",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am excited to be coming to visit and hoping to see a college while in town . <|system|> there are more than 70 to choose from ! which area of town are you most interested in ? <|user|> i would like it to be in the center of town . what s the address of your favorite 1 ? <|system|> downing college is my favorite . it s located on regent street and it s free to get in . <|user|> that sounds like a great suggestion , what is the easiest way to get there ? <|system|> downing college is located at regent street in the center of town . <|user|> i am also looking for a guesthouse in town . <|system|> there are quite a few options to choose from . do you have a preference regarding price range or which area the guesthouse is located in ? <|user|> i would prefer a 4 star hotel , it does not matter where in the city as i'll have a car . i would also prefer that they offer free parking and wifi . <|endofcontext|> "
+        }
+    },
+    "PMUL0599.json": {
+        "5": {
+            "target": [
+                "train destination kings lynn",
+                "train day monday",
+                "train arriveby 17:00",
+                "train departure cambridge"
+            ],
+            "modified_target": [
+                "restaurant pricerange expensive",
+                "train departure cambridge",
+                "train destination kings lynn",
+                "train arriveby 17:00",
+                "train day monday",
+                "restaurant food mexican"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hey i am trying to find a train that leaves on monday to kings lynn . <|system|> are you departing from cambridge ? <|user|> yes . i am departing from cambridge . <|system|> i found 19 trains running between those 2 stations that day . would you like to leave at a certain time ? <|user|> no but i need to arrive by 17:00 . <|system|> i have train tr7964 leaving at 5:11 and arriving at 5:58 . <|user|> how much travel time is involved with this train ? i also need a mexican restaurant in the expensive range . <|system|> i can process 1 request at a time . the train is about an hour . <|user|> i need the exact travel time please . <|endofcontext|> "
+        }
+    },
+    "PMUL4894.json": {
+        "4": {
+            "target": [
+                "restaurant food british",
+                "restaurant pricerange expensive",
+                "restaurant name travellers rest",
+                "restaurant area west",
+                "restaurant book people 4",
+                "restaurant book day friday",
+                "restaurant book time 13:30",
+                "attraction type museum"
+            ],
+            "modified_target": [
+                "restaurant pricerange expensive",
+                "restaurant book people 4",
+                "attraction area west",
+                "restaurant area west",
+                "restaurant book day friday",
+                "restaurant food british",
+                "restaurant book time 13:30",
+                "restaurant name travellers rest",
+                "attraction type museum"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> can you help me find a expensive restaurant in the west ? <|system|> sure , what type of food are you hoping for ? <|user|> it s our anniversary and my wife loves british food . i want it to be special , so maybe something expensive . <|system|> you have 2 choices:the graffiti or the travellers rest . shall i book a table at 1 of them for you ? <|user|> yeah , could you get me a table for 4 on friday at 13:30 at the travellers rest ? <|system|> booking was successful . the table will be reserved for 15 minutes . reference number is : 183ed5p0 . is there anything else i can do for you today ? <|user|> i am also looking for a museum near the restaurant . <|endofcontext|> "
+        }
+    },
+    "PMUL2882.json": {
+        "8": {
+            "target": [
+                "hotel name a and b guest house",
+                "hotel area east",
+                "hotel internet yes",
+                "hotel type guesthouse",
+                "hotel book people 1",
+                "hotel book day monday",
+                "hotel book stay 4",
+                "attraction area east"
+            ],
+            "modified_target": [
+                "hotel name a and b guest house",
+                "hotel type guesthouse",
+                "hotel book people 1",
+                "attraction name cambridge artworks",
+                "hotel book stay 4",
+                "hotel book day monday",
+                "hotel internet yes",
+                "hotel area east",
+                "attraction area east"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , can you give me some information on a place to stay when i arrive in cambridge next week ? <|system|> there are 24 guesthouses and 9 hotel -s across cambridge . what type of place and price range are you looking for ? <|user|> not worried about the price but i would like a guesthouse in the east with free wifi . <|system|> the a and b guest house is in the east with free wifi . would you like their address ? <|user|> yes , and may you please book a room in the hotel for 4 nights ? it s for 1 person . <|system|> i can help you with that . what day will you be arriving at the hotel ? <|user|> i will be arriving on monday , i will need the reference number please . <|system|> the address for the a and b guest house is 124 tenison road . your reservation has been set for check in on monday and your reference number is 1gwcwhlm . <|user|> i am also looking for some place -s to go in the same area as the hotel . can you make some suggestions ? i need the address , postcode , and entrance fee if any . <|system|> what type of attraction are you looking for ? <|user|> how about some restaurant -s , and i want to book a taxi so that i can travel from place to place . <|system|> i apologize . i do not want to misunderstand your request . so , you are wanting to look for an attraction or a restaurant ? <|user|> sorry , i am looking for an attraction . <|system|> the cambridge artworks museum is located at 5 greens road cb13ef . it has free admission . <|user|> do they have ample parking ? <|endofcontext|> "
+        }
+    },
+    "MUL2386.json": {
+        "5": {
+            "target": [
+                "taxi leaveat 22:15",
+                "taxi departure zizzi cambridge",
+                "restaurant food italian",
+                "restaurant name zizzi cambridge",
+                "restaurant area centre",
+                "attraction name regency gallery"
+            ],
+            "modified_target": [
+                "restaurant food italian",
+                "taxi destination regency gallery",
+                "restaurant area centre",
+                "attraction name regency gallery",
+                "restaurant name zizzi cambridge",
+                "taxi leaveat 22:15",
+                "taxi departure zizzi cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi can you help me find a very nice italian restaurant near the centre of cambridge ? <|system|> please specify your price range . <|user|> it does not matter . <|system|> zizzi cambridge serves italian in the centre . <|user|> can i have the address , phone number , and postcode ? <|system|> certainly . the address is 4753 regent street with the postcode of cb21ab . their phone number is 01223365599 . is there anything else ? <|user|> i am also looking for the regency gallery attraction . could you please provide me with information about it including the phone number ? <|system|> of course . it is a museum in the centre . their phone number 01223365454 . can i tell you anything else ? <|user|> yes , i will also need to book a taxi to leave the restaurant by 22:15 . <|endofcontext|> "
+        }
+    },
+    "PMUL0864.json": {
+        "4": {
+            "target": [
+                "restaurant food italian",
+                "restaurant pricerange cheap",
+                "restaurant area centre"
+            ],
+            "modified_target": [
+                "restaurant book people 5",
+                "restaurant food italian",
+                "restaurant pricerange cheap",
+                "restaurant area centre",
+                "restaurant book day sunday",
+                "restaurant book time 12:15"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> may have some information on a restaurant in town ? <|system|> what type of food would you like ? <|user|> i would like italian food . <|system|> what side of town and what price point ? <|user|> cheap price range . once you find the restaurant you want to book a table for 5 people at 12:15 on sunday and i need the reference number <|system|> i have the list up , i want to make sure i didnt forget an area preference first , do you have 1 ? <|user|> i would want something in the centre of town . <|endofcontext|> "
+        }
+    },
+    "PMUL1347.json": {
+        "2": {
+            "target": [
+                "attraction type boat",
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "attraction type boat",
+                "attraction name scudamores punting co",
+                "attraction area centre"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for place -s to go in town . i would like a boat attraction in the centre . any suggestions ? <|system|> i recommend scudamores punting co they are located at granta place , mill lane . the entrance fee is not listed . <|user|> what s their phone number and postcode ? <|endofcontext|> "
+        }
+    },
+    "PMUL1998.json": {
+        "3": {
+            "target": [
+                "hotel area south",
+                "hotel pricerange moderate"
+            ],
+            "modified_target": [
+                "hotel area south",
+                "hotel type guesthouse",
+                "hotel pricerange moderate"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> can you help me find an expensive hotel in the south to stay at ? thanks . <|system|> yes , there is the lensfield hotel . it is located on 5357 lensfield road . their phone number is 01223355017 . <|user|> do they have a guesthouse available ? <|system|> no i am afraid there ae no expensive guesthouses in the south . <|user|> how about 1 in the moderate price range ? <|endofcontext|> "
+        }
+    },
+    "PMUL1087.json": {
+        "6": {
+            "target": [
+                "attraction type park",
+                "attraction area north",
+                "train destination ely",
+                "train day friday",
+                "train arriveby 18:00",
+                "train departure cambridge",
+                "train book people 2"
+            ],
+            "modified_target": [
+                "train destination ely",
+                "train departure cambridge",
+                "train book people 2",
+                "attraction area north",
+                "train leaveat 19:30",
+                "attraction type park",
+                "train arriveby 18:00",
+                "train day friday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i am looking for a train that will be leaving after 19:30 that goes to kings lynn . <|system|> where are you departing from ? <|user|> i'll be leaving from cambridge on friday . <|system|> i have 4 available trains that day ? is there a certain time that you would like to arrive by to your destination ? <|user|> i need to arrive by 18:00 and i am going to ely . <|system|> the closest i have to your arrival time is 16:07 . would you like to book it ? <|user|> yes , please , can you book me for 2 people , and i need th ereference number . <|system|> you are all set ! your train s reference number is: kgrzsk8s . a total of 8.8 gbp is payable at the station . can i help you further ? <|user|> yes i am looking to go to a sporting events up north . do you have any suggestions ? <|system|> i do not have anything meeting that criteria . can i try something else ? <|user|> okay then can we search for a park in the north instead then ? <|endofcontext|> "
+        }
+    },
+    "SNG01153.json": {
+        "2": {
+            "target": [
+                "taxi destination cambridge punter",
+                "taxi arriveby 17:30"
+            ],
+            "modified_target": [
+                "taxi departure city stop restaurant",
+                "taxi arriveby 17:30",
+                "taxi destination cambridge punter"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need a taxi to arrive by 17:30 at the cambridge punte . <|system|> i would be happy to help with your request . did you mean the cambridge punter ? where will you be departing from ? <|user|> yes , the cambridge punter and i will be departing from the city stop restaurant . <|endofcontext|> "
+        }
+    },
+    "PMUL1867.json": {
+        "4": {
+            "target": [
+                "hotel parking yes",
+                "hotel pricerange cheap",
+                "hotel type hotel"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel type hotel",
+                "hotel parking yes",
+                "hotel area centre"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> yes , can you help me with my hotel plans ? <|system|> yes , i can certainly help you with that . is there an area of town you prefer to stay in ? and do you have a price range in mind ? <|user|> i want to stay in cambridge and i need a cheap hotel . <|system|> i have about 10 options of cheap -er rooms . most are guesthouses and 1 is a hotel . do you prefer 1 over the other ? <|user|> i prefer a hotel . preferably 1 with free parking . <|system|> is there a particular side of town you prefer ? <|user|> i would like to be in the center . <|endofcontext|> "
+        }
+    },
+    "MUL0941.json": {
+        "9": {
+            "target": [
+                "restaurant food italian",
+                "restaurant name la margherita",
+                "restaurant area west",
+                "restaurant book time 13:15",
+                "restaurant book day monday",
+                "restaurant book people 8",
+                "attraction type museum",
+                "attraction name cambridge and county folk museum",
+                "attraction area west"
+            ],
+            "modified_target": [
+                "restaurant food italian",
+                "attraction area west",
+                "restaurant book time 13:15",
+                "restaurant book people 8",
+                "restaurant pricerange cheap",
+                "restaurant area west",
+                "restaurant name la margherita",
+                "restaurant book day monday",
+                "attraction name cambridge and county folk museum",
+                "attraction type museum"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a museum in the west to go to . <|system|> there are 7 museums in that area , did you want something with no entrance fee ? <|user|> yes , please . can i get the address and postcode ? <|system|> there are 6 free museums in the area . are you interested in archeology , art exhibits or galleries ? there is also a cafe gallery . <|user|> i am most interested in a museum . can you send me postcode and address . i also would like a cheap catalan restaurant , please . <|system|> well , we have many museums . the cambridge and county folk museum , for instance . or the museum of classical archaeology . what interests you ? <|user|> i'll try the folk museum . where can i find it ? <|system|> the cambridge & county folk museum costs 3.50 pounds entrance and is located at 21 castle street . their phone number is 01223355159 . <|user|> could you also provide the museum s postcode please ? <|system|> yes , the post code is cb30aq <|user|> i am also looking for a cheap catalan restaurant . <|system|> i am sorry , we do not have 1 . will some other type do ? <|user|> yes , can you find a chinese food restaurant in that post code instead ? <|system|> i am sorry , we do not have 1 . will some other type do ? <|user|> are there any italian place -s in town ? <|system|> there is 1 italian restaurant located in the same area as the museum . it is called the la margherita . would you like to book a table ? <|user|> yes . could you book a table for 8 at 13:15 on monday ? <|endofcontext|> "
+        }
+    },
+    "SNG0832.json": {
+        "4": {
+            "target": [
+                "hotel name el shaddia guesthouse",
+                "hotel area centre",
+                "hotel pricerange cheap",
+                "hotel stars 0"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel name el shaddia guesthouse",
+                "hotel parking yes",
+                "hotel stars 0",
+                "hotel area centre"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> could you help me find a cheap hotel in the center of town ? <|system|> i have 2 options to offer you , the 4 star alexander bed and breakfast and the unrated el shaddai . would you like me to book you a room at 1 ? <|user|> great can you find 1 with free parking and a 0 star rating <|system|> the el shaddai meets your needs . would you like to book a room ? <|user|> at the moment , can i just get the postcode and it is a hotel ? <|system|> sure , the postcode is cb11eg . is there anything else i can help you with ? <|user|> i just want to confirm that it is actually a hotel , as opposed to a guesthouse ? <|endofcontext|> "
+        }
+    },
+    "MUL1828.json": {
+        "5": {
+            "target": [
+                "attraction type night club",
+                "train leaveat 17:30",
+                "train destination stevenage",
+                "train day thursday",
+                "train departure cambridge",
+                "train book people 4"
+            ],
+            "modified_target": [
+                "train departure cambridge",
+                "train leaveat 17:30",
+                "train destination stevenage",
+                "attraction area centre",
+                "train book people 4",
+                "attraction type night club",
+                "train day thursday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a train to stevenage that leaves after 17:30 . is there anything available then ? <|system|> i have a few choices for you . what day are you wanting to travel ? <|user|> i would like to leave on thursday out of cambridge . <|system|> the tr0385 leaves at 19:21 , would that suit you ? <|user|> yes , that sounds perfect . i would like a booking for 4 people . <|system|> the booking was successful . your reference number is sicmoaa9 . can i help you with anything else ? <|user|> i am looking for some place -s to go in town . i want something in the centre that has multiple sports . <|system|> i am sorry but there is nothing matching your request . would you like to try another part of town or type of attraction ? <|user|> well , how about any nightclubs ? <|endofcontext|> "
+        }
+    },
+    "MUL0473.json": {
+        "2": {
+            "target": [
+                "train destination kings lynn",
+                "train arriveby 20:30",
+                "train departure cambridge"
+            ],
+            "modified_target": [
+                "train departure cambridge",
+                "train destination kings lynn",
+                "train arriveby 20:30",
+                "train day wednesday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need a train departing cambridge arriving by 2030 . <|system|> which station are you traveling to , and on which day ? <|user|> i need to go to kings lynn on wednesday and need to arrive before 20:30 . <|endofcontext|> "
+        }
+    },
+    "PMUL3283.json": {
+        "7": {
+            "target": [
+                "taxi destination eraina",
+                "restaurant name eraina",
+                "hotel name bridge guest house"
+            ],
+            "modified_target": [
+                "taxi departure bridge guest house",
+                "restaurant name eraina",
+                "taxi destination eraina",
+                "hotel name bridge guest house"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> can you help me find a particular restaurant that i am looking for ? <|system|> i would be happy to help . which restaurant are you looking for ? <|user|> the restaurant is called eraina . <|system|> ah yes , the eraina . it s an expensive european restaurant in the city centre . would you like more info ? <|user|> it was recommended by a friend , and i am not sure what type of food they serve . do you know ? <|system|> they serve european food <|user|> that sounds great , can i get the phone number ? <|system|> yes , they can be reached at 01223368786 , can i assist with anything else ? <|user|> i also need a taxi . <|system|> from where and going to where <|user|> i would like for the taxi to pick me up from the hotel and drop me off at the restaurant . <|system|> well what hotel will you be staying at ? <|user|> i am looking at staying at the bridge guest house . <|endofcontext|> "
+        }
+    },
+    "PMUL2848.json": {
+        "9": {
+            "target": [
+                "taxi leaveat 08:45",
+                "taxi departure all saints church",
+                "hotel name arbury lodge guesthouse",
+                "hotel parking yes",
+                "hotel internet yes",
+                "hotel type guesthouse",
+                "hotel book people 1",
+                "hotel book day sunday",
+                "hotel book stay 5",
+                "attraction name all saints church"
+            ],
+            "modified_target": [
+                "hotel book stay 5",
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "hotel book people 1",
+                "taxi leaveat 08:45",
+                "taxi departure all saints church",
+                "attraction name all saints church",
+                "taxi destination arbury lodge guesthouse",
+                "hotel name arbury lodge guesthouse",
+                "hotel book day sunday",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need a hotel for tonight please . <|system|> i can help you with that . do you have a particular price point you are looking for ? <|user|> it does not matter but i do need free parking . <|system|> i have several hotel -s matching your request available . what part of town would you prefer ? <|user|> i have no preference on the part of town , but i do need free wifi as well . <|system|> ok , that narrows it down to 8 options for you . any other preferences ? <|user|> i would like it to be a guesthouse . <|system|> well there are 21 of those spread across town so i recommend the arbury lodge guesthouse on the north side . would you like me to book it ? <|user|> yes can you please ? <|system|> what day would you like me to book the hotel for ? <|user|> i apologize for not mentioning it before , please book it starting sunday for 1 person for 5 days ? <|system|> you are all set for sunday . your reference number is nivmcdk1 . is there anything else i can help with ? <|user|> thanks . can you give me some information on all saints church ? <|system|> sure . what sort of information do you require ? <|user|> i just need the entrance fee and postcode , please . <|system|> admission is free and their post code is cb58bs . what else can i help you with today ? <|user|> i also need a taxi that will leave all saint s church by 08:45 <|endofcontext|> "
+        }
+    },
+    "MUL0641.json": {
+        "4": {
+            "target": [
+                "hotel parking yes",
+                "hotel stars 4",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "hotel parking yes",
+                "hotel pricerange expensive",
+                "hotel stars 4",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am writing an article on place -s in cambridge with no stars . can you help me find a place to stay that has free wifi ? <|system|> there are 3 place -s that meet those specifications: city centre north bed and breakfast , el shadda and cityroomz . how else can i help you ? <|user|> are any of these hotel -s in the expensive price range ? <|system|> i am sorry , there are not any in the expensive range . cityroomz is in the moderate range , the others are in the cheap range , are you interested in any of those ? <|user|> are there any expensive hotel -s that have 4 stars ? <|system|> oh yes indeed , 21 in fact ! do you want to visit all of them for your article , or would you like to narrow it down some more ? <|user|> do any of the location -s you have found offer free parking ? <|endofcontext|> "
+        }
+    },
+    "MUL1638.json": {
+        "5": {
+            "target": [
+                "restaurant name backstreet bistro",
+                "restaurant book time 13:00",
+                "restaurant book day monday",
+                "restaurant book people 7",
+                "train destination cambridge",
+                "train day monday",
+                "train arriveby 08:00",
+                "train departure stansted airport"
+            ],
+            "modified_target": [
+                "train arriveby 08:00",
+                "train departure stansted airport",
+                "restaurant name backstreet bistro",
+                "restaurant book people 7",
+                "restaurant book time 13:00",
+                "restaurant book day monday",
+                "train day monday",
+                "restaurant food gastropub",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i would like to try gastropub food . can you help me find 1 ? <|system|> try backstreet bistro its located on 2 sturton street city centre . <|user|> can i have the reference number ? <|system|> sure , i would be happy to book this for you . what day , time and how many people will be dining ? <|user|> is backstreet bistro expensive ? <|system|> it is in the more expensive price range , yes . <|user|> ok . can i get a table on monday for 7 people at 13:00 ? <|system|> i ha ve successfully booked your reservation . your reference number is c1tjmpdh . is there anything else that i may assist you with ? <|user|> i am looking for a train that departs from stansted airport on monday and arrives at cambridge by 08:00 . <|endofcontext|> "
+        }
+    },
+    "PMUL3897.json": {
+        "9": {
+            "target": [
+                "hotel parking yes",
+                "hotel pricerange expensive",
+                "hotel stars 2",
+                "hotel type hotel",
+                "attraction type museum",
+                "attraction name cafe jello gallery",
+                "attraction area west"
+            ],
+            "modified_target": [
+                "attraction area west",
+                "hotel type hotel",
+                "hotel parking yes",
+                "hotel name express by holiday inn cambridge",
+                "hotel stars 2",
+                "hotel pricerange expensive",
+                "attraction type museum",
+                "attraction name cafe jello gallery"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for things to do in the west . <|system|> there are many options available in the west , what types of attractions interest you ? <|user|> a museum perhaps ? <|system|> i would recommend the cafe jello gallery . their phone number is 01223312112 . can i help you with anything else ? <|user|> sounds quite interesting . can i get their address please ? <|system|> yes the address is cafe jello gallery , 13 magdalene street , postcode cb30af , admission is free so best price of all . <|user|> thanks ! i am also looking for a place to stay with 2 stars . <|system|> i have 3 hotel -s that meet that criteria , 2 moderate -ly priced in the north , and 1 expensive in the east . which do you prefer ? <|user|> i am looking specifically for a guesthouse , and 1 that has free parking . i am renting a car to sightsee . <|system|> there are no guesthouses with free parking <|user|> do any of them have parking ? <|system|> arbury lodge guesthouse has parking , its a 4 star and in the moderate price range <|user|> no , i would like a 2 star hotel instead . any recommendations ? <|system|> i found 32 star hotel -s with parking . 2 of them have a moderate price range , while the other is expensive . does this help narrow it down ? <|user|> i'll take the expensive 1 . what s the name and can i get their phone number please ? <|system|> express by holiday inn cambridge and their number is 01223866800 . would you like me to make a reservation for you ? <|user|> i assume they have internet , right ? <|endofcontext|> "
+        }
+    },
+    "PMUL1600.json": {
+        "11": {
+            "target": [
+                "hotel area east",
+                "hotel parking yes",
+                "hotel stars 4",
+                "hotel internet yes",
+                "hotel type guesthouse",
+                "hotel book stay 3",
+                "hotel book day saturday",
+                "hotel book people 7",
+                "train destination cambridge",
+                "train day saturday",
+                "train arriveby 11:00",
+                "train departure birmingham new street"
+            ],
+            "modified_target": [
+                "train departure birmingham new street",
+                "hotel name a and b guest house",
+                "hotel book day saturday",
+                "hotel book people 7",
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "train day saturday",
+                "train arriveby 11:00",
+                "hotel stars 4",
+                "hotel book stay 3",
+                "hotel area east",
+                "hotel internet yes",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i would a train . i am going from birmingham new street and it needs to arrive by 11:00 . <|system|> what day would you like to travel ? <|user|> i am leaving on saturday , and the train should go to cambridge . <|system|> tr8259 will arrive in cambridge at 10:23 . would you like me to book a ticket for you on that train ? <|user|> not yet . first i would like to get price and departure time . <|system|> it will depart at 7:40 and it will cost 60.08 pounds . do you need help with anything else ? <|user|> and i need a place to stay <|system|> okay there are many options . do you have a price preference or area ? <|user|> i would like something in the east . i also prefer a guesthouse . <|system|> there is a and b guesthouse , it is in the east part of town <|user|> that sounds good , i have 7 people in total . <|system|> could you tell me the dates , and how many rooms you will be needing ? <|user|> it will be for saturday and for 3 nights . <|system|> okay , 3 nights . would you like me to book that ? <|user|> yes , of course i want you to book it . and give me the reference number too ! <|system|> unfortunately i am having trouble with booking that for you . is there other options we could explore . <|user|> hmmm , could you try again . that is what i really need . <|system|> unfortunately it is not allowing me to make that reservation . i am sorry , is there anything else i can do for you ? <|user|> is there another guesthouse with a 4 star rating in that area ? <|system|> yes . the a and b guest house meets all of your criteria . would you like me to book it for you ? <|user|> yes , please . do they have free parking and internet ? <|endofcontext|> "
+        }
+    },
+    "MUL1268.json": {
+        "8": {
+            "target": [
+                "restaurant food modern european",
+                "restaurant pricerange moderate",
+                "restaurant area centre",
+                "hotel area centre",
+                "hotel parking no",
+                "hotel pricerange moderate"
+            ],
+            "modified_target": [
+                "hotel parking no",
+                "restaurant area centre",
+                "hotel area centre",
+                "restaurant pricerange moderate",
+                "restaurant food modern european",
+                "hotel pricerange moderate",
+                "restaurant name riverside brasserie"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi there . i would like to find a place to dine in the city centre , preferable with sri lankan food . do you have any recommendations ? <|system|> sorry , i do not have any restaurant -s with sri lankan food in the centre . would you like to try another type of food ? <|user|> could you try again ? moderate -ly priced , perhaps ? <|system|> sorry , there was nothing found . do you want to try a different kind of food ? <|user|> how about modern european food ? <|system|> there are 2 options for modern european food in centre in the moderate price range . may i suggest riverside brasserie ? <|user|> sure ! could you tell me the address including the postcode and phone number please ? <|system|> sure , they are located at the doubletree by hilton cambridge granta place mill lane in postcode cb21rt . their phone number is 01223259988 . can i help with anything else today ? <|user|> great . i am also looking for a guesthouse to stay in and i do not need parking . <|system|> not a problem . do you have a preference on area ? <|user|> moderate -ly priced in the centre , please . <|system|> unfortunately , there is no hotel in the moderate -ly priced area <|user|> is there any other type of hotel in the area ? <|system|> sorry , there are no guesthouse in centre within the moderate price range . can i help you with anything else ? <|user|> i understand that there are no guesthouses in the area . but can you see if there are other hotel -s in the area ? moderate -ly priced and in the centre , please . <|endofcontext|> "
+        }
+    },
+    "PMUL4911.json": {
+        "9": {
+            "target": [
+                "attraction area east",
+                "train destination cambridge",
+                "train day saturday",
+                "train arriveby 11:45",
+                "train departure birmingham new street",
+                "train book people 1"
+            ],
+            "modified_target": [
+                "train book people 1",
+                "train arriveby 11:45",
+                "attraction name funky fun house",
+                "train day saturday",
+                "train departure birmingham new street",
+                "attraction area east",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for information in cambridge . <|system|> what can i help you with ? <|user|> i would like info on train travel . <|system|> what day would you like to travel ? where are you departing and arriving to ? <|user|> i would like to leave on saturday . any train is fine . i'll just need the departure time and price . <|system|> where are you leaving from and where are you going to ? <|user|> the train should arrive by 11:45 in cambridge . i am leaving on saturday from birmingham new street on saturday . also need place -s to go in the east side of town . <|system|> i have a train departing birmingham new street on saturday at 22:40 and arriving in cambridge at 1:23 . tickets are 60.08 pounds , would you like to book this train ? <|user|> yes , please book me . <|system|> how many tickets will you be needing ? <|user|> just 1 for myself , please , and thank you . <|system|> ok , the booking was successful , the total fee is 60.08 gbp payable at the station . reference number is : ueeakf0q . can i help with anything else ? <|user|> yes , i would like information on attractions in the east . <|system|> is there a specific type of attraction you are looking for ? <|user|> nope . any that you recommend will be fine . i'll just need the postcode , entrance fee , and attraction type . <|system|> okay i recommend the funky fun house which is entertainment in the east . <|user|> okay , thanks ! what type of attraction is it ? <|endofcontext|> "
+        }
+    },
+    "SNG0610.json": {
+        "1": {
+            "target": [
+                "restaurant food molecular gastronomy"
+            ],
+            "modified_target": [
+                "restaurant area centre",
+                "restaurant food molecular gastronomy"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi there . i am hoping you can help me . i am looking to try molecular gastronomy food . might there be a restaurant like this in the centre of town ? <|endofcontext|> "
+        }
+    },
+    "SNG01262.json": {
+        "3": {
+            "target": [
+                "hotel area north",
+                "hotel parking yes",
+                "hotel internet yes",
+                "hotel type guesthouse"
+            ],
+            "modified_target": [
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "hotel book stay 2",
+                "hotel book day thursday",
+                "hotel book people 2",
+                "hotel area north",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a place to stay . the hotel should include free wifi and should include free parking <|system|> there are many results with free wifi and parking , to help narrow it down , what area do you want to stay in ? <|user|> north area in a guesthouse <|system|> what star rating ? <|user|> it does not matter as long as i can book it for 2 people and 2 nights starting thursday . <|endofcontext|> "
+        }
+    },
+    "PMUL3921.json": {
+        "6": {
+            "target": [
+                "hotel name a and b guest house",
+                "hotel book people 4",
+                "hotel book day thursday",
+                "hotel book stay 3",
+                "attraction type college",
+                "attraction area centre"
+            ],
+            "modified_target": [
+                "hotel name a and b guest house",
+                "attraction type college",
+                "attraction name christ college",
+                "attraction area centre",
+                "hotel book stay 3",
+                "hotel book people 4",
+                "hotel book day thursday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a and b guest house <|system|> it is a moderate -ly priced guesthouse on the east side of town . it does not offer free parking . do you want more information ? <|user|> yes book it for 4 people and 3 nights starting from thursday . <|system|> ok . i was able to complete the booking . your reference number is 3pqeeni7 . <|user|> wow , thanks . could you please also find me a college to visit in the centre area ? <|system|> there are 13 colleges in the centre . many of them are free . would you like me to suggest 1 ? <|user|> is there 1 you would recommend ? <|system|> well i would suggest christ s college which is free to enter and is located on saint andrew s street . <|user|> how much is the entrance fee ? <|system|> admission is free ! <|user|> this is great . thank you for your help . <|endofcontext|> "
+        }
+    },
+    "PMUL3425.json": {
+        "5": {
+            "target": [
+                "restaurant pricerange expensive",
+                "restaurant area centre",
+                "train destination cambridge",
+                "train day monday",
+                "train arriveby 17:15",
+                "train departure london kings cross"
+            ],
+            "modified_target": [
+                "restaurant pricerange expensive",
+                "restaurant book people 8",
+                "restaurant area centre",
+                "restaurant book time 21:00",
+                "train arriveby 17:15",
+                "train departure london kings cross",
+                "restaurant book day monday",
+                "train day monday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hello , i am looking for a train to cambridge that arrives by 17:15 . <|system|> we'll find you something . where are you departing from ? <|user|> i am departing from london kings cross on monday . <|system|> i have train tr9114 that leaves at 15:17 and will get you into cambridge by 16:08 . would that work for you ? <|user|> that is fine . get me the travel time <|system|> the travel time for the tr9114 is 51 minutes . is there anything else i can help you with ? <|user|> yes , i am also looking for an expensive restaurant in the center of town . <|system|> i have 33 expensive restaurant -s in the centre of town . what type of food would you like ? <|user|> the type of food is not important , but i need 1 that can seat 8 people at 21:00 . can you make a suggestion ? <|endofcontext|> "
+        }
+    },
+    "MUL1117.json": {
+        "4": {
+            "target": [
+                "hotel name ashley hotel",
+                "hotel parking yes",
+                "hotel pricerange moderate",
+                "hotel type hotel"
+            ],
+            "modified_target": [
+                "hotel type hotel",
+                "hotel book stay 3",
+                "hotel parking yes",
+                "hotel book people 1",
+                "hotel pricerange moderate",
+                "hotel name ashley hotel"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need to find a place to stay that include -s free parking and is moderate -ly priced . <|system|> i have many guesthouses and hotel -s available . do you have a preference on the number of stars or location ? <|user|> no star preference , but i would like it to be a hotel type . <|system|> there are 2 hotel -s that fit your criteria: the ashley hotel and the lovell lodge . which would you prefer ? <|user|> the ashley hotel will do fine . can you book me a room there ? it will just be myself staying . <|system|> how many days would you be staying there ? <|user|> id be staying for 3 nights <|endofcontext|> "
+        }
+    },
+    "MUL0035.json": {
+        "2": {
+            "target": [
+                "hotel name aylesbray lodge guest house"
+            ],
+            "modified_target": [
+                "hotel name aylesbray lodge guest house",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need help finding the aylesbray lodge guest house . would you be able to give me the address and phone number ? <|system|> absolutely . the phone number is 01223240089 and is located at 5 mowbray road . <|user|> could you also let me know the star rating of the hotel , phone number and i would also like to know if they have wifi . <|endofcontext|> "
+        }
+    },
+    "PMUL1385.json": {
+        "7": {
+            "target": [
+                "attraction type theatre",
+                "attraction area centre",
+                "train destination cambridge",
+                "train day sunday",
+                "train arriveby 20:45",
+                "train departure london kings cross",
+                "train book people 7"
+            ],
+            "modified_target": [
+                "train book people 7",
+                "attraction area centre",
+                "attraction type theatre",
+                "attraction name adc theatre",
+                "train departure london kings cross",
+                "train arriveby 20:45",
+                "train day sunday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for something to do in the centre of town . <|system|> there s so much to do in the centre of town . there are museums , boats , concerthall , cinemas . what are your interests ? <|user|> i think a theatre sounds nice . <|system|> i have the adc theatre on park street . would that work for you ? <|user|> yes , that would be great . can you give me the phone number , address , and postcode . ? <|system|> their address is park street , postcode cb58as . their phone number is 01223300085 . can i help you with anything else ? <|user|> yes , i need a train for sunday . <|system|> what are your departure and arrival stations , and what time of day would you like to travel ? <|user|> i am leaving london kings cross and need to arrive in cambridge by 20:45 . <|system|> the tr3350 train will arrive at 6:08 . would you like to book a ticket ? <|user|> yes please for 7 people . <|system|> i have made the booking for 7 people . your reference number is uoxktdik and there will be 132.16 gbp fare payable at the station . do you need anything else ? <|user|> great , thanks so much , that s all i need ! have a great day ! <|endofcontext|> "
+        }
+    },
+    "MUL0789.json": {
+        "2": {
+            "target": [
+                "hotel parking yes",
+                "hotel pricerange moderate",
+                "hotel stars 3",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "hotel type hotel",
+                "hotel stars 3",
+                "hotel parking yes",
+                "hotel pricerange moderate",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a hotel with free wifi and at least a 3 star rating , please . <|system|> i listed these hotel -s , which 1 do you want me to book for you ? <|user|> i would like a hotel that has free wifi and free parking . it should be moderate -ly priced with a 3 star rating . <|endofcontext|> "
+        }
+    },
+    "MUL0510.json": {
+        "6": {
+            "target": [
+                "attraction type college",
+                "train destination cambridge",
+                "train day monday",
+                "train arriveby 20:45",
+                "train departure ely",
+                "train book people 1"
+            ],
+            "modified_target": [
+                "train book people 1",
+                "attraction type college",
+                "attraction area centre",
+                "train departure ely",
+                "train day monday",
+                "train arriveby 20:45",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am in ely . i need to figure out how to get to cambridge by train . <|system|> what day would you like to travel ? <|user|> i need to travel monday and arrive by 20:45 <|system|> there are 8 trains that arrive before this time . the tr6679 arrives at 19:52 , which is the closest to your requested time . does that work for you ? <|user|> yes , that works for me . please go ahead and book it . thank you ! <|system|> i would be happy to book that for you , how many tickets do you need ? <|user|> just 1 ticket , i am also looking for an attraction in the centre . <|system|> alright , train booked for you , your reference number is sm4xh1cm . did you have a particular type of attraction in the centre you are interested in ? <|user|> i am looking for a college , actually . <|system|> i have 18 results for colleges . to help narrow it down , are you looking for 1 in a particular area ? some are free and some have entrance fees . <|user|> let s look at ones that have no entrance fee please . <|endofcontext|> "
+        }
+    },
+    "PMUL3293.json": {
+        "7": {
+            "target": [
+                "hotel area north",
+                "hotel parking yes",
+                "hotel internet yes",
+                "train destination ely",
+                "train day saturday",
+                "train arriveby 11:15",
+                "train departure cambridge"
+            ],
+            "modified_target": [
+                "train destination ely",
+                "hotel type hotel",
+                "train departure cambridge",
+                "hotel parking yes",
+                "hotel area north",
+                "train arriveby 11:15",
+                "train day saturday",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , could you help me with my plans ? i am looking for a train . <|system|> i can help you with that . where will be departing and where do you want to go ? <|user|> i will be departing from cambridge and going into ely on saturday . <|system|> trains run that route every 2 hour -s throughout the day . do you have a target departure or arrival time ? <|user|> i would like to arrive in ely by 11:15 . could you please tell me the price and what the departure time is ? <|system|> tr0718 arrives at 10:07 on saturday . cost is 3.52 pounds . would you like me to reserve a seat for you ? <|user|> i need to book a room in the north as well . <|system|> there are 2 hotel -s and 11 guesthouses to choose from in the north , ranging in price from cheap to moderate . do you have a price point preference ? <|user|> i would need a hotel with wifi <|system|> there are 12 hotel -s that fit your criteria . do you want a moderate -ly priced or cheap hotel ? <|user|> i do not care about the price . i absolutely do need free parking , though . <|system|> do you have a star rating preference ? <|user|> i do not have a preference on the number of stars . <|endofcontext|> "
+        }
+    },
+    "PMUL1323.json": {
+        "6": {
+            "target": [
+                "attraction type college",
+                "attraction name saint catharines college",
+                "attraction area centre",
+                "train day sunday",
+                "train departure cambridge"
+            ],
+            "modified_target": [
+                "train departure cambridge",
+                "attraction type college",
+                "attraction name saint catharines college",
+                "attraction area centre",
+                "train day sunday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a college in the east . <|system|> i apologize , i am unable to locate any colleges in the east . would you like to try another area ? <|user|> i am sorry , i meant the centre . <|system|> i see . the centre offers 13 colleges . most , like saint catharine s college on king s parade , are free to visit . <|user|> can you give me the address , phone number , and entrance fee for saint catherine s college ? <|system|> sure the address is on king s parade post code cb21rl . the phone number is 01223338300 . is there anything else that you need ? <|user|> yes i also need a train leaving from cambridge . <|system|> i have over a thousand trains leaving from cambridge . what day and time do you wish to travel ? <|user|> i will travel on sunday . <|system|> what is your destination and what time would you like to leave ? <|user|> i would like to go to cambridge on sunday . <|endofcontext|> "
+        }
+    },
+    "PMUL1980.json": {
+        "5": {
+            "target": [
+                "train destination cambridge",
+                "train day tuesday",
+                "train arriveby 13:45",
+                "train departure kings lynn",
+                "train book people 1"
+            ],
+            "modified_target": [
+                "train day tuesday",
+                "train book people 1",
+                "train departure kings lynn",
+                "hotel pricerange moderate",
+                "train destination cambridge",
+                "train arriveby 13:45"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i want to book a train . list all tuesday departures to cambridge . <|system|> there are over 200 departures to cambridge on tuesday , do you have a specific departure place or time ? <|user|> my departure point is kings lynn and i need to arrive at cambridge by 13:45 <|system|> tr2616 departs at 09:11 would that work ? how many tickets would you like to purchase ? <|user|> yes please book that for 1 person and give me the reference number . <|system|> booking was successful , the total fee is 9.8 gbp payable at the station . reference number is : tt953cjr . can i help you with anything else today ? <|user|> i am also looking for a place to stay . <|system|> what are would you like to stay in ? <|user|> meh does not really matter . just moderate -ly priced . . <|endofcontext|> "
+        }
+    },
+    "MUL2009.json": {
+        "4": {
+            "target": [
+                "train destination broxbourne",
+                "train day thursday",
+                "train departure cambridge",
+                "train book people 7"
+            ],
+            "modified_target": [
+                "train departure cambridge",
+                "hotel type guesthouse",
+                "train book people 7",
+                "train destination broxbourne",
+                "hotel pricerange expensive",
+                "train day thursday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need to catch a train going to broxbourne . can you help me ? <|system|> of course ! when would you like to travel ? <|user|> i will be leaving from cambridge and i would like to travel on thursday . <|system|> tr8008 leaves at 05.01 <|user|> thank you so much for your help . <|system|> do you need help booking a ticket on that train or with anything else ? <|user|> i want to make a booking for 7 people , and i need the reference number . also , i need to book an expensive guesthouse . <|endofcontext|> "
+        }
+    },
+    "MUL2270.json": {
+        "5": {
+            "target": [
+                "hotel name archway house",
+                "train destination cambridge",
+                "train day tuesday",
+                "train arriveby 18:30",
+                "train departure london kings cross"
+            ],
+            "modified_target": [
+                "train day tuesday",
+                "hotel name archway house",
+                "train departure london kings cross",
+                "train arriveby 18:30",
+                "hotel internet yes",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i would like help finding a train headed to cambridge . <|system|> i will be happy to help you find a train . can you tell me where you will be departing from ? <|user|> departing from london kings cross on tuesday . <|system|> when would you like to leave or arrive by ? <|user|> i need to arrive by 18,30 . <|system|> take train tr1434 , which will arrive at 18:08 . shall i book you for that train ? <|user|> can i get the price for a ticket , first ? <|system|> sure ! the ticket is 23.60 pounds . <|user|> thanks ! i am also looking for a hotel called archway house . can you tell me if they have free wifi ? <|endofcontext|> "
+        }
+    },
+    "PMUL3437.json": {
+        "3": {
+            "target": [
+                "hotel name alexander bed and breakfast",
+                "hotel area centre",
+                "hotel parking yes",
+                "hotel pricerange cheap",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel parking yes",
+                "hotel book stay 2",
+                "hotel name alexander bed and breakfast",
+                "hotel area centre",
+                "hotel book day friday",
+                "hotel internet yes",
+                "hotel book people 6"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a place to stay . the hotel should include free wifi and should include free parking . <|system|> what about acorn house ? it seems lovely <|user|> i need something cheap and in the centre of town . <|system|> in that case , you have 2 selections . the alexander bed and breakfast is 1 . the other is el shaddai . were you looking for a particular star rating ? <|user|> could you book me a room at the alexander bed and breakfast for 6 people and 2 nights starting from friday ? <|endofcontext|> "
+        }
+    },
+    "PMUL4333.json": {
+        "2": {
+            "target": [
+                "restaurant food modern global",
+                "restaurant pricerange expensive"
+            ],
+            "modified_target": [
+                "restaurant area centre",
+                "restaurant pricerange expensive",
+                "restaurant food modern global"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> find me an expensive modern global restaurant to dine in . <|system|> i have no restaurant -s matching what you asked . would you like a different price range ? <|user|> are you sure there are none in the center of town ? <|endofcontext|> "
+        }
+    },
+    "MUL0389.json": {
+        "5": {
+            "target": [
+                "restaurant food european",
+                "restaurant pricerange expensive",
+                "restaurant book time 21:00",
+                "train leaveat 12:45",
+                "train destination cambridge",
+                "train day tuesday",
+                "train departure peterborough",
+                "train book people 8"
+            ],
+            "modified_target": [
+                "train departure peterborough",
+                "restaurant pricerange expensive",
+                "train leaveat 12:45",
+                "train day tuesday",
+                "restaurant book people 8",
+                "train book people 8",
+                "restaurant book time 21:00",
+                "restaurant book day tuesday",
+                "restaurant food european",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need a train to cambridge and i need it to leave after 12:45 . <|system|> there are 833 trains that meet your needs . would you like to narrow it down by departure station and and or day of travel ? <|user|> i am leaving from peterborough and need to travel on tuesday . <|system|> that narrows it down to 23 choices . what time were you wishing to arrive ? <|user|> arrival time does not matter , it just needs to depart after 12:45 . i'll need to book the travel for 8 people . are there any that can accommodate that many ? <|system|> the tr4679 departs at 13:19 . booking was successful for 8 people , the total fee is 132 gbp payable at the station . reference number is : gvi45xuy . <|user|> thanks , i am also looking for a restaurant that serves european food in the expensive price range . <|system|> i have 5 results for european restaurant -s . do you have an area preference ? i have results in the north , west and town centre . <|user|> i have no preference . i would like to book at a table today at 21:00 . <|endofcontext|> "
+        }
+    },
+    "MUL0454.json": {
+        "5": {
+            "target": [
+                "train leaveat 16:30",
+                "train destination cambridge",
+                "train day thursday",
+                "train departure london kings cross",
+                "train book people 1"
+            ],
+            "modified_target": [
+                "train book people 1",
+                "train leaveat 16:30",
+                "attraction area centre",
+                "train departure london kings cross",
+                "attraction type multiple sports",
+                "train day thursday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a train that leaves on thursday going to cambridge . <|system|> there are 202 trains that meet what you are asking . where would you like to depart from ? <|user|> london kings cross , it should also leave after 16:30 . <|system|> tr1149 departs london kings cross at 17:17 and arrives in cambridge at 18:08 . will that work ? <|user|> yes it will . can you book that for just me , and provide the reference number ? <|system|> sure thing ! how many tickets do you need ? <|user|> i need 1 ticket and can i please have the reference number ? <|system|> booking was successful , the total fee is 23.6 gbp payable at the station . reference number is : r57g4du4 . can i provide any further help today ? <|user|> i am also looking for place -s to go int town . i would love for it to be sports related in the town centre . <|endofcontext|> "
+        }
+    },
+    "MUL0798.json": {
+        "4": {
+            "target": [
+                "hotel area south",
+                "hotel pricerange cheap",
+                "hotel internet yes",
+                "train destination cambridge",
+                "train day saturday",
+                "train departure peterborough"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "train departure peterborough",
+                "hotel area south",
+                "train destination cambridge",
+                "train day saturday",
+                "hotel stars 4",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i was wondering if you could help me find a hotel in the south part of town . <|system|> i sure can . we have 4 accommodation options in the south part of town . 1 is a hotel , and 3 are guesthouses . do you have a preference ? <|user|> the hotel should be in the cheap price range and should have a star of 4 with free wifi . <|system|> great , i have found 1 that fits just that . how about rosa s bed and breakfast ? <|user|> is that a hotel or a guesthouse ? <|system|> rosa s bed and breakfast is a guesthouse . can i book this for you ? <|user|> actually first i would like you to help me find a train that goes between peterborough and cambridge on saturday . <|endofcontext|> "
+        }
+    },
+    "SNG01165.json": {
+        "6": {
+            "target": [
+                "restaurant food italian",
+                "restaurant pricerange moderate",
+                "restaurant name pizza hut fenditton",
+                "restaurant book time 12:15",
+                "restaurant book day monday",
+                "restaurant book people 5"
+            ],
+            "modified_target": [
+                "restaurant book people 5",
+                "restaurant food italian",
+                "restaurant book time 12:15",
+                "restaurant pricerange moderate",
+                "restaurant name pizza hut fenditton",
+                "restaurant book day monday",
+                "restaurant area east"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a restaurant . the restaurant should be in the moderate price range and should be in the east <|system|> try curry prince or pizza hut fen ditton <|user|> the restaurant should serve italian food . <|system|> pizza hut fen ditton serves italian food in the east , would you like a reservation ? <|user|> what other restaurant -s in that area serve italian food ? <|system|> pizza hut fen ditton is the only italian restaurant , in the east , in the moderate price range . do you want me to try other area -s ? <|user|> no , that will do . can i book a table for monday ? <|system|> absolutely , how many people will you have and what time are you wanting the reservation ? <|user|> i will have 5 people and we would like 12:15 if possible . thanks . <|system|> you are booked , the reference number is af2gj7g6 , may i assist with anything else ? <|user|> thanks for you help . i only need the restaurant reservation . goodbye . <|endofcontext|> "
+        }
+    },
+    "PMUL1952.json": {
+        "9": {
+            "target": [
+                "hotel area west",
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "train destination cambridge",
+                "train day thursday",
+                "train arriveby 10:30",
+                "train departure peterborough",
+                "train book people 4"
+            ],
+            "modified_target": [
+                "train departure peterborough",
+                "hotel parking yes",
+                "hotel type guesthouse",
+                "train arriveby 10:30",
+                "hotel area west",
+                "train book people 4",
+                "train destination cambridge",
+                "hotel stars 4",
+                "train day thursday"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i am looking for information on a train . <|system|> you came to the right place ! where would you like to go ? <|user|> i would like to go to cambridge and will be departing from peterborough . <|system|> what time would you like to leave or arrive by ? <|user|> i would like to arrive by 10:30 on thursday , please . <|system|> great ! i found 9 trains that match your requests . i'll be happy to book 1 if you will let me know how many tickets you need . <|user|> i need to book seats for 4 people please , and can i get the reference number for that ? <|system|> first let s verify which train you want . the tr1719 will have you at your destination around 10:09 . <|user|> yes , that sounds perfect . i'll need 4 seats . <|system|> your booking was successful , the total fee is 66 gbp payable at the station . your reference number is : p6g0s9it . is there anything else i can help you with ? <|user|> i need a hotel in the west with free parking please . <|system|> do you care about the price range ? i have 1 cheap and 1 expensive hotel that fits your current criteria . <|user|> i actually need a guesthouse instead of a hotel , please . <|system|> i have 2 guesthouses . would you like a cheap 1 that is a 4 star , or a moderate -ly priced 3 star ? <|user|> let s go with the 4 star . could i have the phone number of that 1 ? <|system|> of course . the phone number for finches bed and breakfast is 01223276653 . <|user|> thank you . that will be all for today . goodbye <|endofcontext|> "
+        }
+    },
+    "PMUL1008.json": {
+        "5": {
+            "target": [
+                "attraction type college",
+                "train destination cambridge",
+                "train day sunday",
+                "train arriveby 17:30",
+                "train departure broxbourne",
+                "train book people 1"
+            ],
+            "modified_target": [
+                "train book people 1",
+                "attraction type college",
+                "train departure broxbourne",
+                "attraction area centre",
+                "train arriveby 17:30",
+                "train day sunday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i want to travel to cambridge by train . <|system|> great , what time do you have in mind ? <|user|> i want to arrive by 17:30 . <|system|> and where are you leaving from ? <|user|> i am leaving from broxbourne on sunday . <|system|> the first train departs broxbourne for cambridge on sunday at 05:32 . do you want to purchase this ticket or pick a later departure time ? <|user|> can you book for arrival closer to 17:30 for 1 person and give me the reference number . also i would like to see a college in centre . <|system|> i found you a seat on tr4658 departing broxbourne at 15:32 , arriving cambridge at 16:32 . the total fee is 14.32 gbp payable at the station , and your reference number is h88ltkwc . <|user|> i am also looking for a place to go maybe a college . <|endofcontext|> "
+        }
+    },
+    "MUL1661.json": {
+        "7": {
+            "target": [
+                "restaurant book time 13:30",
+                "restaurant book day sunday",
+                "restaurant book people 2",
+                "train destination cambridge",
+                "train day sunday",
+                "train arriveby 08:00",
+                "train departure ely"
+            ],
+            "modified_target": [
+                "train arriveby 08:00",
+                "restaurant book people 2",
+                "restaurant book day sunday",
+                "restaurant book time 13:30",
+                "restaurant name yu garden",
+                "train departure ely",
+                "train day sunday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> are there trains to cambridge on sunday ? <|system|> there are 202 trains that match your trip . do you have a specific departure city ? <|user|> leaving cambridge on sunday <|system|> okay , where would you like to go ? <|user|> i would like to go from ely to cambridge and arrive by 8:00 . <|system|> there are 2 trains departing ely at 5:35 and 7:35 that will arrive in cambridge by 8:00 . would you like to book either train ? <|user|> i would like to book the 7:35 please , also give me the train id ? and will i be close to yu garden ? <|system|> train id is tr1037 . it will be in the same city , yes . anything else ? <|user|> i am also looking for a restaurant called yu garden , i need you to book it foe 2 peopleat 13:30 for sunday . i need the reference number please . thank you <|system|> i was able to reserve it , reference number is cxeckioh . <|user|> i am also looking for a restaurant . <|system|> are you looking for 1 in addition to the 1 we just made a reservation at ? <|user|> no i am sorry , i was mistaken , thank you , that is all <|endofcontext|> "
+        }
+    },
+    "MUL0760.json": {
+        "2": {
+            "target": [
+                "hotel area centre",
+                "hotel pricerange expensive",
+                "hotel internet yes"
+            ],
+            "modified_target": [
+                "hotel parking yes",
+                "hotel area centre",
+                "hotel pricerange expensive",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a place to stay . could you find me a place in the centre of town that is expensive ? <|system|> there are 2 hotel -s in that area that are in the expensive price range , 1 is a 3 star and the other 4 star . which 1 would you prefer ? <|user|> i need it to have free wifi and free parking . does 1 of them offer both ? <|endofcontext|> "
+        }
+    },
+    "PMUL2330.json": {
+        "7": {
+            "target": [
+                "restaurant food mediterranean",
+                "restaurant pricerange expensive",
+                "restaurant name la mimosa",
+                "attraction type entertainment",
+                "attraction name nusha",
+                "attraction area south"
+            ],
+            "modified_target": [
+                "attraction area south",
+                "restaurant pricerange expensive",
+                "restaurant food mediterranean",
+                "attraction type entertainment",
+                "restaurant book day sunday",
+                "attraction name nusha",
+                "restaurant book time 11:15",
+                "restaurant name la mimosa"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for somewhere in south cambridge with multiple sports attractions . <|system|> there are none available , do you have another attraction ? <|user|> okay . can you search for some entertainment in the south part of town ? <|system|> i have 2 place -s . nusha and tipin . which would you prefer ? <|user|> i would like nusha . can you give me the phone number and address for nusha ? <|system|> the address for nashua is unit g6 , cambridge leisure park , clifton road . phone number is 01223902158 . <|user|> i also need an irish restaurant that is expensive . <|system|> what area would you like ? <|user|> the area does not matter . <|system|> i am not seeing any expensive irish restaurant -s . is there a different type of food you might want ? <|user|> how about 1 that serves mediterranean food . <|system|> la mimosa is located in the centre and is expensive . <|user|> that sounds great ! can you check and see if we can get a reservation on sunday at 11:15 ? <|endofcontext|> "
+        }
+    },
+    "SNG0529.json": {
+        "4": {
+            "target": [
+                "restaurant food italian",
+                "restaurant area east",
+                "restaurant book time 16:15",
+                "restaurant book day saturday",
+                "restaurant book people 6"
+            ],
+            "modified_target": [
+                "restaurant food italian",
+                "restaurant book day saturday",
+                "restaurant area east",
+                "restaurant name pizza hut fenditton",
+                "restaurant book people 6",
+                "restaurant book time 16:15"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a restaurant that serves canapes in the east . <|system|> unfortunately there are no restaurant -s serving canapes in the east . <|user|> ah , well , too bad . in that case i think that'll be everything that i needed . thanks and have a good day ! <|system|> are you sure ? i can find other options in other parts of town ? <|user|> how about italian food ? <|system|> there is the pizza hut fen ditton in the east serving italian food . <|user|> great ! please book a table for 6 at 16:15 on saturday <|endofcontext|> "
+        }
+    },
+    "PMUL0566.json": {
+        "3": {
+            "target": [
+                "restaurant food international"
+            ],
+            "modified_target": [
+                "restaurant food international",
+                "restaurant book time 18:45",
+                "restaurant book people 2",
+                "restaurant area centre",
+                "restaurant book day sunday",
+                "restaurant pricerange moderate"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hello , i would like some information on a restaurant today . <|system|> there are 110 restaurant -s in cambridge . to help narrow down results , is there a particular type of food you are looking for ? <|user|> let s try international food . <|system|> sure , do you care if it is cheap or moderate -ly priced ? <|user|> moderate -ly priced in centre . i would like to book a table for 2 at 18:45 on sunday <|endofcontext|> "
+        }
+    },
+    "SNG0721.json": {
+        "6": {
+            "target": [
+                "restaurant food british",
+                "restaurant area centre",
+                "restaurant book time 19:30",
+                "restaurant book day friday",
+                "restaurant book people 6"
+            ],
+            "modified_target": [
+                "restaurant area centre",
+                "restaurant book day friday",
+                "restaurant food british",
+                "restaurant name restaurant 17",
+                "restaurant book people 6",
+                "restaurant book time 19:30"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i am looking for restaurant -s in the area that serve british cuisine . could you give me some suggestions ? <|system|> there are many indian restaurant -s in the city . could you tell me in what area you would like to eat ? <|user|> is there something available in the west ? <|system|> yes , there are 3 . would you like something in the moderate or expensive price range ? <|user|> i do not care about the price range . however , i need to confirm that the restaurant serves british food and is in the centre of town . <|system|> the restaurant 17 meets your specification -s of british food in the centre of town . would you like me to book that for you ? <|user|> yes . for 6 people at 19:30 on friday , please . i'll need the reference number . <|system|> booking was successful . the table will be reserved for 15 minutes . reference number is : 59jrjr4e . <|user|> great thanks so much ! <|system|> is there anything else i can help you with ? <|user|> that s all i needed thank you <|endofcontext|> "
+        }
+    },
+    "MUL0148.json": {
+        "3": {
+            "target": [
+                "restaurant pricerange expensive",
+                "restaurant name midsummer house restaurant",
+                "restaurant area centre",
+                "restaurant book people 3",
+                "restaurant book day sunday",
+                "restaurant book time 17:30",
+                "hotel pricerange expensive"
+            ],
+            "modified_target": [
+                "restaurant pricerange expensive",
+                "hotel type hotel",
+                "restaurant book people 3",
+                "restaurant area centre",
+                "restaurant book day sunday",
+                "restaurant name midsummer house restaurant",
+                "hotel pricerange expensive",
+                "restaurant book time 17:30"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for a centrally located upscale restaurant . <|system|> i can book you at the midsummer house restaurant if you would like . <|user|> for 3 people , at 17:30 on sunday . reference number please . <|system|> ok . i have booked your table . your reference number is gvc0k9wu . can i help with anything else ? <|user|> yes . i a place to stay . a upscale hotel please . <|endofcontext|> "
+        }
+    },
+    "PMUL0615.json": {
+        "5": {
+            "target": [
+                "restaurant food chinese",
+                "restaurant pricerange expensive",
+                "restaurant area centre"
+            ],
+            "modified_target": [
+                "restaurant pricerange expensive",
+                "restaurant food chinese",
+                "restaurant area centre",
+                "train day monday",
+                "train departure birmingham new street",
+                "train leaveat 13:15",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hi , i am looking for a restaurant suggestion in cambridge . <|system|> what type of food and price range would you be interested in ? <|user|> i would like some chinese food , please ! <|system|> i can definitely help you with that . what price range were you looking for ? <|user|> i want something expensive . <|system|> what area do you want the restaurant to be in ? <|user|> in the centre of town , if possible . <|system|> sesame restaurant and bar is located in17 hills road city centre . can i give you the phon number ? <|user|> yes , i would like the phone number . i also need a train on monday to cambridge from birmingham new street . i would like to leave after 13:15 . <|endofcontext|> "
+        }
+    },
+    "PMUL3301.json": {
+        "6": {
+            "target": [
+                "hotel name archway house",
+                "hotel book people 8",
+                "hotel book day saturday",
+                "hotel book stay 2",
+                "train leaveat 19:00",
+                "train destination cambridge",
+                "train day saturday",
+                "train departure norwich"
+            ],
+            "modified_target": [
+                "hotel book stay 2",
+                "hotel name archway house",
+                "hotel area centre",
+                "train leaveat 19:00",
+                "train departure norwich",
+                "hotel book people 8",
+                "train day saturday",
+                "hotel stars 4",
+                "hotel book day saturday",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> looking for hotel with 4 star in the center of town . <|system|> the university arms hotel is fantastic . it s expensive , but worth the cost . <|user|> can you book it for me and get a reference number ? <|system|> for how many should i book ? <|user|> i actually need to book a specific hotel called , the archway house . <|system|> that is a guesthouse located in north and is moderate -ly priced . <|user|> please book that for 8 people for 2 nights starting on saturday . <|system|> your booking is confirmed . your reference number is : vy4y4erg . can i assist with anything else ? <|user|> great , i also need to book a train on saturday for norwich to cambridge leaving after 19:00 . <|system|> there is a 19:16 that would arrive at 20:35 . how does that sound ? <|user|> yes what is the price of the ticket and when does the train arrive please ? <|endofcontext|> "
+        }
+    },
+    "MUL0570.json": {
+        "7": {
+            "target": [
+                "attraction area centre",
+                "train destination cambridge",
+                "train day tuesday",
+                "train arriveby 15:15",
+                "train departure ely"
+            ],
+            "modified_target": [
+                "train day tuesday",
+                "attraction type college",
+                "attraction area centre",
+                "train arriveby 15:15",
+                "train departure ely",
+                "train destination cambridge"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hello , do you know of any points of interest in the centre of cambridge ? <|system|> there are 44 attractions in the center of town . what types are you interested in ? <|user|> i am not sure . what types of attractions are there ? <|system|> you could visit a church or college . there are also 8 museums that are free of charge to enter . <|user|> i would like to visit a college . may i have the entrance fee and postcard ? <|system|> there is christ s college , which has a free entrance fee . their postcode is cb23bu . <|user|> can i have information for a train departing from ely ? i am looking to arrive in cambridge by about 15:15 on tuesday . <|system|> tr3412 will arrive around 11:52 on tuesday if you are interested in that . <|user|> i'll take it for just me what is the travel time , and the price please ? <|system|> the travel time is 17 minutes and the price is 4.40 gbp . <|user|> great thank you i think i have all the information i need <|system|> would you like me to book that train for you ? <|user|> no thank you . appreciate the help ! <|endofcontext|> "
+        }
+    },
+    "PMUL0768.json": {
+        "1": {
+            "target": [
+                "restaurant food eritrean"
+            ],
+            "modified_target": [
+                "restaurant area centre",
+                "restaurant food eritrean"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i need a place to dine in the centre of town , serving eritrean food . <|endofcontext|> "
+        }
+    },
+    "MUL2063.json": {
+        "2": {
+            "target": [
+                "hotel pricerange cheap",
+                "hotel internet yes",
+                "hotel type hotel"
+            ],
+            "modified_target": [
+                "hotel pricerange cheap",
+                "hotel type hotel",
+                "hotel name cambridge belfry",
+                "hotel area west",
+                "hotel internet yes"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> hello i am looking for a cheap hotel that include -s wifi . <|system|> i actually have just 1 located in the west that is cheap . it is the cambridge belfry . they are 4 star rated and offer free parking and wifi . can i book you ? <|user|> great . i just needed to know 1 would be available if i decide to make the trip . you've been a great help . thanks . bye . <|endofcontext|> "
+        }
+    },
+    "PMUL4440.json": {
+        "7": {
+            "target": [
+                "restaurant name pizza hut fenditton",
+                "restaurant book people 3",
+                "restaurant book day friday",
+                "restaurant book time 16:00",
+                "hotel area north",
+                "hotel pricerange moderate",
+                "hotel stars 4",
+                "hotel type guesthouse"
+            ],
+            "modified_target": [
+                "hotel name a and b guest house",
+                "restaurant book people 3",
+                "hotel type guesthouse",
+                "restaurant book time 16:00",
+                "restaurant book day friday",
+                "hotel area north",
+                "hotel book people 3",
+                "restaurant name pizza hut fenditton",
+                "hotel pricerange moderate",
+                "hotel book day friday",
+                "hotel stars 4",
+                "hotel book stay 3"
+            ],
+            "context": "<|endoftext|> <|context|> <|user|> i am looking for this restaurant called pizza hut fen ditton <|system|> it is a moderate -ly priced restaurant in the east that serves italian food . can i 5 you the address ? <|user|> no , but could you book a table for me ? 3 people on friday at 16:00 , please . <|system|> booking was successful . the table will be reserved for 15 minutes . reference number is : f78j1sk2 . is there anything else i can help you with ? <|user|> i am not sure . . let me ask my wife . <|system|> can i help you with anything else ? <|user|> i also need a place to stay . <|system|> can you please tell me what type of place and if you have any preferences ? <|user|> i want a guesthouse in the north with a moderate price range and 4 stars . <|system|> a and b guest house would fit that criteria , would you like to make a booking ? <|user|> yes , that would be great . i'll need to book for friday , 3 people , and for 3 nights . <|system|> actually , the a and b guest house is in the east . it is 4 stars with a moderate price range . i did not see anything that fit your criteria in the north . <|user|> would you check again for a guesthouse in the moderate price range , in the north with 4 stars , please ? <|endofcontext|> "
+        }
+    }
+}

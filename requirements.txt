@@ -1,0 +1,6 @@
+transformers
+spicy
+boto3
+ipdb
+tqdm
+json

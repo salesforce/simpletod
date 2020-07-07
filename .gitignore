@@ -1,0 +1,488 @@
+<<<<<<< HEAD
+*.tgz
+*.h5
+*.hdf5
+*.swp
+*.swo
+#*.txt
+*.csv
+*.png
+*.log
+*.pkl
+*.pth
+*.swn
+##*.sh
+*.pyc
+*.pptx
+*.xlsx
+*.zip
+*.DS_Store
+*.tar
+#*.dat
+*.qpclassifier
+*.qpdata
+=======
+#<<<<<<< HEAD
+#<<<<<<< HEAD
+#*.tgz
+#*.h5
+#*.hdf5
+#*.swp
+#*.swo
+#*.txt
+#*.csv
+#*.png
+#*.log
+#*.pkl
+#*.pth
+#*.swn
+#*.sh
+#*.pyc
+#*.pptx
+#*.xlsx
+#*.zip
+#*.DS_Store
+#*.tar
+#*.dat
+#*.qpclassifier
+#*.qpdata
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+#
+#
+#__pycache__/
+#.ropproject/
+#.idea/
+#.ipynb_checkpoints/
+#=======
+#legacy
+#notebooks
+#foobar*
+#run.sh
+#README.rst
+#pretrained_models
+#deepvoice3_pytorch/version.py
+#checkpoints*
+#log
+#generated
+#data
+#text
+<<<<<<< HEAD
+##datasets
+=======
+#datasets
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+#testout
+#
+## Created by https://www.gitignore.io
+#
+#### Python ###
+## Byte-compiled / optimized / DLL files
+#__pycache__/
+#*.py[cod]
+#
+## C extensions
+#*.so
+#
+## Distribution / packaging
+#.Python
+#env/
+#build/
+#develop-eggs/
+#dist/
+#downloads/
+#eggs/
+<<<<<<< HEAD
+##lib/
+=======
+#lib/
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+#lib64/
+#parts/
+#sdist/
+#var/
+#*.egg-info/
+#.installed.cfg
+#*.egg
+#
+## PyInstaller
+##  Usually these files are written by a python script from a template
+##  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#*.manifest
+#*.spec
+#
+## Installer logs
+#pip-log.txt
+#pip-delete-this-directory.txt
+#
+## Unit test / coverage reports
+#htmlcov/
+#.tox/
+#.coverage
+#.cache
+#nosetests.xml
+#coverage.xml
+#
+## Translations
+#*.mo
+#*.pot
+#
+## Django stuff:
+#*.log
+#
+## Sphinx documentation
+#docs/_build/
+#
+## PyBuilder
+#target/
+#
+#
+#### IPythonNotebook ###
+## Temporary data
+#.ipynb_checkpoints/
+#
+#
+#### SublimeText ###
+## cache files for sublime text
+#*.tmlanguage.cache
+#*.tmPreferences.cache
+#*.stTheme.cache
+#
+## workspace files are user-specific
+#*.sublime-workspace
+#
+## project files should be checked into the repository, unless a significant
+## proportion of contributors will probably not be using SublimeText
+## *.sublime-project
+#
+## sftp configuration file
+#sftp-config.json
+#
+#
+#### Emacs ###
+## -*- mode: gitignore; -*-
+#*~
+#\#*\#
+#/.emacs.desktop
+#/.emacs.desktop.lock
+#*.elc
+#auto-save-list
+#tramp
+#.\#*
+#
+## Org-mode
+#.org-id-locations
+#*_archive
+#
+## flymake-mode
+#*_flymake.*
+#
+## eshell files
+#/eshell/history
+#/eshell/lastdir
+#
+## elpa packages
+#/elpa/
+#
+## reftex files
+#*.rel
+#
+## AUCTeX auto folder
+#/auto/
+#
+## cask packages
+#.cask/
+#
+#
+#### Vim ###
+#[._]*.s[a-w][a-z]
+#[._]s[a-w][a-z]
+#*.un~
+#Session.vim
+#.netrwhist
+#*~
+#
+#
+#### C++ ###
+<<<<<<< HEAD
+=======
+#=======
+#data/*
+#
+## READ THIS BEFORE YOU REFACTOR ME
+##
+## setup.py uses the list of patterns in this file to decide
+## what to delete, but it's not 100% sound.  So, for example,
+## if you delete aten/build/ because it's redundant with build/,
+## aten/build/ will stop being cleaned.  So be careful when
+## refactoring this file!
+#
+### PyTorch
+#
+#.mypy_cache
+#*.pyc
+#*/*.pyc
+#*/*.so*
+#*/**/__pycache__
+#*/**/*.dylib*
+#*/**/*.pyc
+#*/**/*.pyd
+#*/**/*.so*
+#*/**/**/*.pyc
+#*/**/**/**/*.pyc
+#*/**/**/**/**/*.pyc
+#aten/build/
+#aten/src/ATen/Config.h
+#aten/src/ATen/cuda/CUDAConfig.h
+#build/
+#dist/
+#docs/src/**/*
+#test/.coverage
+#test/cpp/api/mnist
+#test/data/gpu_tensors.pt
+#test/data/legacy_modules.t7
+#test/data/legacy_serialized.pt
+#test/data/linear.pt
+#test/htmlcov
+#third_party/build/
+#tools/shared/_utils_internal.py
+#torch.egg-info/
+#torch/csrc/autograd/generated/*
+#torch/csrc/cudnn/cuDNN.cpp
+#torch/csrc/generated
+#torch/csrc/generic/TensorMethods.cpp
+#torch/csrc/jit/generated/*
+#torch/csrc/nn/THCUNN.cpp
+#torch/csrc/nn/THCUNN.cwrap
+#torch/csrc/nn/THNN_generic.cpp
+#torch/csrc/nn/THNN_generic.cwrap
+#torch/csrc/nn/THNN_generic.h
+#torch/csrc/nn/THNN.cpp
+#torch/csrc/nn/THNN.cwrap
+#torch/lib/*.a*
+#torch/lib/*.dll*
+#torch/lib/*.dylib*
+#torch/lib/*.h
+#torch/lib/*.lib
+#torch/lib/*.so*
+#torch/lib/build
+#torch/lib/cmake
+#torch/lib/include
+#torch/lib/pkgconfig
+#torch/lib/protoc
+#torch/lib/tmp_install
+#torch/lib/torch_shm_manager
+#torch/version.py
+#
+## IPython notebook checkpoints
+#.ipynb_checkpoints
+#
+## Editor temporaries
+#*.swn
+#*.swo
+#*.swp
+#*.swm
+#*~
+#
+## macOS dir files
+#.DS_Store
+#
+## Symbolic files
+#tools/shared/cwrap_common.py
+#
+## Ninja files
+#.ninja_deps
+#.ninja_log
+#compile_commands.json
+#*.egg-info/
+#docs/source/scripts/activation_images/
+#
+### General
+#
+#>>>>>>> eda8152c3c52c67679b6406fb05d508a609e70cd
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+## Compiled Object files
+#*.slo
+#*.lo
+#*.o
+<<<<<<< HEAD
+=======
+#<<<<<<< HEAD
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+#*.obj
+#
+## Precompiled Headers
+#*.gch
+#*.pch
+#
+<<<<<<< HEAD
+=======
+#=======
+#*.cuo
+#*.obj
+#
+#>>>>>>> eda8152c3c52c67679b6406fb05d508a609e70cd
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+## Compiled Dynamic libraries
+#*.so
+#*.dylib
+#*.dll
+#
+<<<<<<< HEAD
+## Fortran module files
+#*.mod
+#
+=======
+#<<<<<<< HEAD
+## Fortran module files
+#*.mod
+#
+#=======
+#>>>>>>> eda8152c3c52c67679b6406fb05d508a609e70cd
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+## Compiled Static libraries
+#*.lai
+#*.la
+#*.a
+#*.lib
+#
+<<<<<<< HEAD
+=======
+#<<<<<<< HEAD
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
+## Executables
+#*.exe
+#*.out
+#*.app
+#
+#
+#### OSX ###
+#.DS_Store
+#.AppleDouble
+#.LSOverride
+#
+## Icon must end with two \r
+#Icon
+#
+#
+## Thumbnails
+#._*
+#
+## Files that might appear on external disk
+#.Spotlight-V100
+#.Trashes
+#
+## Directories potentially created on remote AFP share
+#.AppleDB
+#.AppleDesktop
+#Network Trash Folder
+#Temporary Items
+#.apdisk
+#
+#
+#### Linux ###
+#*~
+#
+## KDE directory preferences
+#.directory
+#
+## Linux trash folder which might appear on any partition or disk
+#.Trash-*
+<<<<<<< HEAD
+=======
+#>>>>>>> 274447dbea13021db88e6916e7b02d94fb1a1b00
+#=======
+## Compiled protocol buffers
+#*.pb.h
+#*.pb.cc
+#*_pb2.py
+#
+## Compiled python
+#*.pyc
+#*.pyd
+#
+## Compiled MATLAB
+#*.mex*
+#
+## IPython notebook checkpoints
+#.ipynb_checkpoints
+#
+## Editor temporaries
+#*.swn
+#*.swo
+#*.swp
+#*~
+#
+## Sublime Text settings
+#*.sublime-workspace
+#*.sublime-project
+#
+## Eclipse Project settings
+#*.*project
+#.settings
+#
+## QtCreator files
+#*.user
+#
+## PyCharm files
+#.idea
+#
+## Visual Studio Code files
+#.vscode
+#.vs
+#
+## OSX dir files
+#.DS_Store
+#
+### Caffe2
+#
+## build, distribute, and bins (+ python proto bindings)
+#build
+#build_host_protoc
+#build_android
+#build_ios
+#/build_*
+#.build_debug/*
+#.build_release/*
+#distribute/*
+#*.testbin
+#*.bin
+#cmake_build
+#.cmake_build
+#gen
+#.setuptools-cmake-build
+#.pytest_cache
+#aten/build/*
+#
+## Bram
+#plsdontbreak
+#
+## Generated documentation
+#docs/_site
+#docs/gathered
+#_site
+#doxygen
+#docs/dev
+#
+## LevelDB files
+#*.sst
+#*.ldb
+#LOCK
+#LOG*
+#CURRENT
+#MANIFEST-*
+#
+## generated version file
+#caffe2/version.py
+#
+## setup.py intermediates
+#.eggs
+#caffe2.egg-info
+#
+## Atom/Watchman required file
+#.watchmanconfig
+#
+## cython generated files
+#lib/model/utils/bbox.c
+#lib/pycocotools/_mask.c
+#>>>>>>> eda8152c3c52c67679b6406fb05d508a609e70cd
+>>>>>>> 9c37d6284d430f8f0c82af4055d5c7b1277b4f5f
