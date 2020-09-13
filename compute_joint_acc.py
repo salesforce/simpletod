@@ -4,7 +4,7 @@ import ipdb
 import sys
 import numpy as np
 from utils.Constants import SLOT_VALS
-from utils.dst import ignore_none_dontcare, default_cleaning, IGNORE_TURNS_TYPE2
+from utils.dst import ignore_none, default_cleaning, IGNORE_TURNS_TYPE2
 import argparse
 
 
@@ -43,7 +43,7 @@ for dial in data:
                 new_turn_pred.append(bs)
         turn_pred = new_turn_pred
 
-        turn_pred, turn_target = ignore_none_dontcare(turn_pred, turn_target)
+        turn_pred, turn_target = ignore_none(turn_pred, turn_target)
 
         # MultiWOZ default cleaning
         if args.default_cleaning:

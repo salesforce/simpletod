@@ -71,7 +71,7 @@ IGNORE_TURNS_TYPE2 = \
 
 
 
-def ignore_none_dontcare(pred_belief, target_belief):
+def ignore_none(pred_belief, target_belief):
     for pred in pred_belief:
         if 'catherine s' in pred:
             pred.replace('catherine s', 'catherines')
@@ -79,21 +79,14 @@ def ignore_none_dontcare(pred_belief, target_belief):
     clean_target_belief = []
     clean_pred_belief = []
     for bs in target_belief:
-        if 'not mentioned' in bs or 'dontcare' in bs:
+        if 'not mentioned' in bs:
             continue
         clean_target_belief.append(bs)
 
     for bs in pred_belief:
-        if 'not mentioned' in bs or 'dontcare' in bs:
+        if 'not mentioned' in bs:
             continue
         clean_pred_belief.append(bs)
-
-    dontcare_slots = []
-    for bs in target_belief:
-        if 'dontcare' in bs:
-            domain = bs.split()[0]
-            slot = bs.split()[1]
-            dontcare_slots.append('{}_{}'.format(domain, slot))
 
     target_belief = clean_target_belief
     pred_belief = clean_pred_belief
