@@ -54,7 +54,7 @@ def _rotate_checkpoints(args, checkpoint_prefix="checkpoint", use_mtime=False):
         shutil.rmtree(checkpoint)
 
 
-def save_checkpoint(model, optimizer, scheduler, tokenizer, args):
+def save_checkpoint(model, optimizer, scheduler, tokenizer, args, global_step):
     checkpoint_prefix = "checkpoint"
     # Save model checkpoint
     output_dir = os.path.join(args.output_dir, "{}-{}".format(checkpoint_prefix, global_step))
