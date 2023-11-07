@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.1-runtime-ubuntu16.04
+FROM nvidia/cuda:12.2.2-runtime-ubuntu22.04
 
 ENV PATH="/root/miniconda3/bin:${PATH}"
 ARG PATH="/root/miniconda3/bin:${PATH}"
