@@ -64,24 +64,25 @@ for d in data:
 for d in data_delex:
     delex_dict[d['name']] = d
 
-if 'openai-gpt' in model_checkpoint:
-    tokenizer = OpenAIGPTTokenizer.from_pretrained(model_checkpoint)
-    tokenizer.add_special_tokens({'bos_token': '<|endoftext|>'})
-    tokenizer.add_special_tokens({'eos_token': '<|endoftext|>'})
-else:
-    tokenizer = GPT2Tokenizer.from_pretrained(model_checkpoint)
+# if 'openai-gpt' in model_checkpoint:
+#     tokenizer = OpenAIGPTTokenizer.from_pretrained(model_checkpoint)
+#     tokenizer.add_special_tokens({'bos_token': '<|endoftext|>'})
+#     tokenizer.add_special_tokens({'eos_token': '<|endoftext|>'})
+# else:
+#     tokenizer = GPT2Tokenizer.from_pretrained(model_checkpoint)
 
-if 'openai-gpt' in model_checkpoint:
-    model = OpenAIGPTLMHeadModel.from_pretrained(model_checkpoint)
-else:
-    model = GPT2LMHeadModel.from_pretrained(model_checkpoint)
+# if 'openai-gpt' in model_checkpoint:
+#     model = OpenAIGPTLMHeadModel.from_pretrained(model_checkpoint)
+# else:
+#     model = GPT2LMHeadModel.from_pretrained(model_checkpoint)
 
+tokenizer = GPT2Tokenizer.from_pretrained(model_checkpoint)
+model = GPT2LMHeadModel.from_pretrained(model_checkpoint)
 model.eval()
 model.to('cuda')
 
-break_tokens = tokenizer.encode(tokenizer._eos_token)
+break_tokens = tokenizer.encode(str(tokenizer._eos_token))
 MAX_LEN = model.config.n_ctx
-
 
 generated_dict = {}
 num_data = len(data)
@@ -173,6 +174,7 @@ for i, dial_name in enumerate(lex_dict):
 
 
         model_context.append(text)
+        text=text.strip()
         indexed_tokens = tokenizer.encode(text)
         if len(indexed_tokens) > MAX_LEN:
             indexed_tokens = indexed_tokens[-1*MAX_LEN:]
@@ -205,6 +207,7 @@ for i, dial_name in enumerate(lex_dict):
                 text = '{} {}'.format(tmp_pred, db_text_dynamic)
 
             # continue generation
+            text=text.strip()
             indexed_tokens = tokenizer.encode(text)
             if len(indexed_tokens) > MAX_LEN:
                 indexed_tokens = indexed_tokens[-1 * MAX_LEN:]
